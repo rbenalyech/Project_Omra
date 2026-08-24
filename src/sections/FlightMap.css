@@ -1,0 +1,124 @@
+.flight-map {
+  background: var(--color-bg);
+  padding-top: var(--space-2xl);
+  padding-bottom: var(--space-2xl);
+  min-height: 250vh;
+}
+
+.flight-map-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  position: sticky;
+  top: 20px;
+}
+
+.flight-svg {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.city-dot {
+  transition: r 0.3s ease, fill 0.3s ease;
+}
+
+.city-pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { r: 14; opacity: 0.5; }
+  50% { r: 20; opacity: 0; }
+}
+
+.plane-icon {
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.miqat-marker {
+  animation: fadeInScale 0.5s ease forwards;
+}
+
+@keyframes fadeInScale {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.flight-info-cards {
+  position: absolute;
+  bottom: var(--space-lg);
+  left: var(--space-lg);
+  right: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  pointer-events: none;
+}
+
+.flight-info-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-md);
+  animation: slideUp 0.4s ease forwards;
+  pointer-events: auto;
+  max-width: 320px;
+}
+
+.flight-info-card h4 {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: var(--space-xs);
+  color: var(--color-primary-dark);
+}
+
+.flight-info-card p {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+.flight-info-card--miqat {
+  background: #FFF3E0;
+  border-left: 3px solid #FF9800;
+  display: flex;
+  gap: var(--space-sm);
+  align-items: flex-start;
+  max-width: 400px;
+}
+
+.flight-info-card-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .flight-map {
+    min-height: 200vh;
+  }
+
+  .flight-map-container {
+    top: 10px;
+  }
+
+  .flight-info-cards {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    margin-top: var(--space-md);
+    padding: 0 var(--space-sm);
+  }
+
+  .flight-info-card {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "lang": "fr",
+    "direction": "ltr"
+  },
+  "hero": {
+    "title": "Ta Omra, étape par étape",
+    "subtitle": "De Bruxelles à la Kaaba — tout comprendre en 15 minutes",
+    "cta": "Commencer le voyage",
+    "quickMode": "Mode rapide"
+  },
+  "nav": {
+    "sections": [
+      { "id": "hero", "label": "Accueil", "icon": "🏠" },
+      { "id": "preparatifs", "label": "Préparatifs", "icon": "🧳" },
+      { "id": "aeroport", "label": "Aéroport", "icon": "✈️" },
+      { "id": "vol", "label": "Le vol", "icon": "🗺️" },
+      { "id": "sacralisation", "label": "Ihram", "icon": "🕊️" },
+      { "id": "omra", "label": "La Omra", "icon": "🕋" },
+      { "id": "medine", "label": "Médine", "icon": "🌙" },
+      { "id": "invocations", "label": "Invocations", "icon": "📖" },
+      { "id": "recap", "label": "Récap", "icon": "✅" }
+    ]
+  },
+  "preparatifs": {
+    "sectionTitle": "Les préparatifs",
+    "sectionSubtitle": "Avant de boucler ta valise",
+    "intention": {
+      "title": "L'intention",
+      "text": "Ton voyage doit être uniquement dédié à la satisfaction d'Allah. Veille aussi à le financer avec de l'argent licite."
+    },
+    "patience": {
+      "title": "La patience",
+      "text": "Des millions de pèlerins, des dizaines de nationalités. Quatre règles d'or :",
+      "rules": [
+        { "word": "Sourire", "detail": "Bon pour le corps et le cœur, ça détend les gens autour de toi." },
+        { "word": "Respecter", "detail": "Écoute les consignes et respecte les règles. Elles sont les mêmes pour tout le monde." },
+        { "word": "Aider", "detail": "Assiste tes frères et sœurs en Allah. Le plus fort aide le plus faible." },
+        { "word": "Patienter", "detail": "Patiente, patiente et patiente encore ! La récompense est énorme pour les endurants." }
+      ]
+    },
+    "budget": {
+      "title": "Le budget",
+      "text": "La somme nécessaire est élevée. Planifie et économise. L'argent doit être gagné de manière licite.",
+      "tip": "Si tu as des dettes, il est conseillé de les régler avant de partir. Exception : si le Hajj ne causera aucun retard de remboursement, ou si le créancier autorise le départ.",
+      "exchange": "100 € ≈ 400 SAR (1 SAR ≈ 0,25 €)",
+      "dailyBudget": "Prévois environ 100 SAR / jour / personne pour les frais personnels.",
+      "prices": [
+        { "item": "Pain plat", "price": "1 SAR" },
+        { "item": "Pain de mie", "price": "7 SAR" },
+        { "item": "Jus 20 cl", "price": "1 SAR" },
+        { "item": "Bouteille d'eau 33 cl", "price": "1–2 SAR" },
+        { "item": "Eau de Zamzam", "price": "Gratuite (mosquées)" },
+        { "item": "Boisson gazeuse 30 cl", "price": "3–4 SAR" },
+        { "item": "Expresso / café", "price": "10 SAR ou plus" },
+        { "item": "Repas riz-poulet", "price": "20–35 SAR" },
+        { "item": "Repas fast-food", "price": "20–35 SAR" },
+        { "item": "Taxi 4-5 km", "price": "à partir de 10 SAR" }
+      ]
+    },
+    "checklist": {
+      "title": "Check-list administrative",
+      "items": [
+        { "text": "Poser tes congés", "icon": "calendar" },
+        { "text": "Passeport valide 6 mois après le retour", "icon": "passport" },
+        { "text": "Preuve de résidence (étrangers en Belgique)", "icon": "document" },
+        { "text": "Vaccinations obligatoires", "icon": "syringe" },
+        { "text": "Visa (si nécessaire)", "icon": "stamp" }
+      ]
+    },
+    "physique": {
+      "title": "Préparation physique",
+      "items": [
+        { "icon": "walking", "text": "Marche 5 à 7 km, au moins 4 à 5 fois dans les semaines avant le départ" },
+        { "icon": "shoe", "text": "Achète de bonnes sandales solides et confortables" },
+        { "icon": "sun", "text": "Soleil intense : hydrate-toi en permanence, évite la caféine excessive" },
+        { "icon": "food", "text": "Choix alimentaires prudents : attention aux perturbations gastriques" },
+        { "icon": "mask", "text": "Poussière et gaz : porte un masque ou un foulard pour protéger tes narines" }
+      ]
+    },
+    "valise": {
+      "title": "Ta valise",
+      "subtitle": "Chaque élément est important et nécessaire !",
+      "items": [
+        { "name": "Tenue d'Ihram", "category": "essentiel", "icon": "ihram" },
+        { "name": "Passeport + documents", "category": "essentiel", "icon": "passport" },
+        { "name": "Tapis de prière pliable", "category": "essentiel", "icon": "prayermat" },
+        { "name": "Sandales solides", "category": "essentiel", "icon": "sandals" },
+        { "name": "Sac à dos (petit)", "category": "essentiel", "icon": "backpack" },
+        { "name": "Ceinture porte-monnaie", "category": "essentiel", "icon": "belt" },
+        { "name": "Lunettes de soleil", "category": "confort", "icon": "sunglasses" },
+        { "name": "Téléphone + chargeur", "category": "confort", "icon": "phone" },
+        { "name": "Batterie externe", "category": "confort", "icon": "battery" },
+        { "name": "Adaptateur prise (type UK)", "category": "confort", "icon": "adapter" },
+        { "name": "Paracétamol + pharmacie", "category": "santé", "icon": "medkit" },
+        { "name": "Vaseline sans parfum", "category": "santé", "icon": "cream" },
+        { "name": "Sparadrap + pansements", "category": "santé", "icon": "bandage" },
+        { "name": "Brosse à dents + hygiène", "category": "santé", "icon": "toothbrush" },
+        { "name": "Petite torche", "category": "confort", "icon": "flashlight" },
+        { "name": "Fruits secs et barres", "category": "confort", "icon": "snacks" },
+        { "name": "Liseuse / livres audio", "category": "confort", "icon": "book" },
+        { "name": "Grand sac souple (retour)", "category": "confort", "icon": "bag" }
+      ]
+    },
+    "apprendre": {
+      "title": "S'informer avant de partir",
+      "text": "C'est un devoir pour le pèlerin d'apprendre les rites de sa religion. Lis, regarde des vidéos, apprends les invocations, vérifie ta façon de prier.",
+      "rewardMecca": "La prière à la Mosquée sacrée de La Mecque = 100 000 prières",
+      "rewardMedina": "La prière à la Mosquée de Médine = 1 000 prières",
+      "goldenRule": "Conforme-toi aux règles décrites dans le Coran et la Sunna, et éloigne-toi de toutes formes d'innovations !",
+      "hadith": "« Prenez exemple sur moi pour accomplir vos rites. »",
+      "hadithSource": "Rapporté par Muslim"
+    }
+  },
+  "aeroport": {
+    "sectionTitle": "Direction l'aéroport",
+    "sectionSubtitle": "Bruxelles-Zaventem (BRU)",
+    "steps": [
+      { "title": "Check-in", "text": "Arrive 3h avant le vol. Aie ton passeport et ta confirmation de réservation prêts.", "icon": "checkin" },
+      { "title": "Sécurité", "text": "Liquides < 100 ml en sachet transparent. Retire ceinture et chaussures.", "icon": "security" },
+      { "title": "Embarquement", "text": "Rejoins la porte d'embarquement 45 min avant le départ.", "icon": "gate" },
+      { "title": "Décollage", "text": "Invocation du voyage : Bismillah, tawakkaltu 'ala Allah.", "icon": "takeoff" }
+    ],
+    "importantNote": "La durée du séjour est calculée à partir de l'heure de décollage (au départ) jusqu'à l'heure d'atterrissage (au retour). Un jour entamé est un jour compté !"
+  },
+  "vol": {
+    "sectionTitle": "Le vol",
+    "sectionSubtitle": "Bruxelles → Istanbul → Djeddah",
+    "route": [
+      { "city": "Bruxelles", "code": "BRU", "country": "Belgique", "coords": [50.9, 4.48] },
+      { "city": "Istanbul", "code": "IST", "country": "Turquie", "coords": [41.26, 28.74], "note": "Escale — profite pour te reposer et te préparer mentalement." },
+      { "city": "Djeddah", "code": "JED", "country": "Arabie Saoudite", "coords": [21.67, 39.15], "note": "Porte d'entrée des Lieux Saints." }
+    ],
+    "miqatWarning": "Environ 20–30 min avant l'atterrissage à Djeddah, l'avion survole le Miqat. Tu dois être en état d'Ihram ou l'avoir enfilé à ce moment. Prépare-toi à l'avance !"
+  },
+  "sacralisation": {
+    "sectionTitle": "La sacralisation",
+    "sectionSubtitle": "L'entrée en état d'Ihram",
+    "miqat": {
+      "title": "Les 5 Miqat",
+      "description": "Toute personne passant par un lieu de sacralisation (Miqat) pour accomplir le Hajj ou la Omra doit s'y mettre en état d'Ihram.",
+      "points": [
+        { "name": "Dhul-Hulayfah", "aka": "Abar Ali", "distance": "427 km de La Mecque", "note": "À la sortie de Madinah" },
+        { "name": "Al-Juhfah", "aka": "", "distance": "204 km de La Mecque", "note": "" },
+        { "name": "Yalamlam", "aka": "As-Sa'diyah", "distance": "94 km de La Mecque", "note": "" },
+        { "name": "Qarn al-Manâzil", "aka": "Al-Seyl al-Kabir", "distance": "94 km de La Mecque", "note": "" },
+        { "name": "Dhât 'Irq", "aka": "", "distance": "98 km de La Mecque", "note": "" }
+      ],
+      "europeNote": "Les pèlerins venant d'Europe se sacralisent soit dans l'avion (~20-30 min avant Djeddah), soit à Dhul-Hulayfah s'ils visitent Madinah d'abord.",
+      "warning": "Si tu dépasses ces points sans te sacraliser, tu devras y retourner. Sinon, tu devras sacrifier une bête (al-Haram)."
+    },
+    "ihram": {
+      "title": "L'Ihram",
+      "descriptionHomme": "Deux pièces de tissu blanc non cousues pour l'homme.",
+      "descriptionFemme": "Tenue couvrante habituelle pour la femme (pas de niqab ni de gants en état de sacralisation).",
+      "interdits": [
+        { "text": "Se parfumer", "icon": "perfume" },
+        { "text": "Se couper les ongles", "icon": "nails" },
+        { "text": "Se couper les cheveux", "icon": "scissors" },
+        { "text": "Relations conjugales", "icon": "heart" },
+        { "text": "Chasser", "icon": "hunt" },
+        { "text": "Porter des vêtements cousus (homme)", "icon": "shirt" },
+        { "text": "Se couvrir la tête (homme)", "icon": "hat" }
+      ]
+    },
+    "talbiyah": {
+      "title": "La Talbiyah",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+      "phonetic": "Labbayk Allahumma labbayk, labbayka lâ sharîka laka labbayk, inna-l-hamda wan-ni'mata laka wal-mulk, lâ sharîka lak.",
+      "translation": "Me voici, ô Allah, me voici. Me voici, Tu n'as aucun associé, me voici. La louange, la grâce et la royauté T'appartiennent. Tu n'as aucun associé.",
+      "instruction": "À réciter dès l'entrée en état d'Ihram et à répéter tout au long du trajet."
+    }
+  },
+  "omra": {
+    "sectionTitle": "Les étapes de la Omra",
+    "sectionSubtitle": "À la Mosquée Sacrée de La Mecque",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Le Tawaf",
+        "subtitle": "7 tours autour de la Kaaba",
+        "description": "Tourne autour de la Kaaba dans le sens inverse des aiguilles d'une montre, en commençant depuis la Pierre Noire.",
+        "tips": ["Sens : antihoraire", "Départ : Pierre Noire", "7 tours complets"],
+        "icon": "tawaf"
+      },
+      {
+        "number": 2,
+        "title": "Prière au Maqâm Ibrâhîm",
+        "subtitle": "2 rak'ah après le Tawaf",
+        "description": "Après les 7 tours, prie 2 unités de prière derrière la Station d'Abraham (Maqâm Ibrâhîm) si possible.",
+        "tips": ["2 rak'ah", "Derrière le Maqâm si possible", "Sourate Al-Kâfirûn + Al-Ikhlâs"],
+        "icon": "prayer"
+      },
+      {
+        "number": 3,
+        "title": "L'eau de Zamzam",
+        "subtitle": "Boire l'eau bénite",
+        "description": "Bois l'eau de Zamzam en faisant des invocations. Elle est disponible gratuitement dans la mosquée.",
+        "tips": ["Gratuite dans la mosquée", "Invoque Allah en buvant"],
+        "icon": "water"
+      },
+      {
+        "number": 4,
+        "title": "Le Sa'i",
+        "subtitle": "7 trajets entre Safâ et Marwah",
+        "description": "Effectue 7 allers-retours entre les monts Safâ et Marwah. Safâ → Marwah = 1 trajet, Marwah → Safâ = 1 trajet.",
+        "tips": ["Départ de Safâ", "Arrivée à Marwah au 7e trajet", "Invocations à chaque mont"],
+        "icon": "sai"
+      },
+      {
+        "number": 5,
+        "title": "Le rasage / raccourcissement",
+        "subtitle": "Halq ou Taqsir",
+        "description": "L'homme se rase la tête (Halq, recommandé) ou raccourcit ses cheveux (Taqsir). La femme coupe une petite mèche.",
+        "tips": ["Halq (rasage) = préférable pour l'homme", "Taqsir = couper quelques cm", "Femme : petite mèche seulement"],
+        "icon": "razor"
+      }
+    ],
+    "completionNote": "La Omra est maintenant terminée ! Tu peux retirer l'Ihram et reprendre ta vie normale."
+  },
+  "medine": {
+    "sectionTitle": "Le séjour à Médine",
+    "sectionSubtitle": "La ville du Prophète ﷺ",
+    "placeholder": true,
+    "note": "Contenu à compléter avec les photos du chapitre 5 du livre."
+  },
+  "invocations": {
+    "sectionTitle": "Invocations essentielles",
+    "sectionSubtitle": "Les duas du pèlerin",
+    "placeholder": true,
+    "note": "Contenu à compléter avec les photos du chapitre 7 du livre."
+  },
+  "recap": {
+    "sectionTitle": "Récapitulatif",
+    "sectionSubtitle": "Toute la Omra en un coup d'œil",
+    "steps": [
+      "Ihram + Talbiyah",
+      "Tawaf (7 tours)",
+      "Prière au Maqâm",
+      "Eau de Zamzam",
+      "Sa'i (7 trajets)",
+      "Rasage / Taqsir"
+    ]
+  }
+}

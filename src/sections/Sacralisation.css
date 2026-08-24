@@ -1,0 +1,383 @@
+.sacralisation {
+  background: var(--color-sand-light);
+}
+
+.sacra-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3xl);
+}
+
+.sacra-subtitle {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-md);
+}
+
+.sacra-text {
+  font-size: 0.95rem;
+  color: var(--color-text-light);
+  line-height: 1.7;
+  margin-bottom: var(--space-sm);
+}
+
+/* Miqat */
+.miqat-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.miqat-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.miqat-points {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin: var(--space-lg) 0;
+}
+
+.miqat-point {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.miqat-section.visible .miqat-point {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.miqat-point-marker {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  flex-shrink: 0;
+  box-shadow: 0 0 0 3px var(--color-accent-light);
+}
+
+.miqat-point-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.miqat-point-info strong {
+  font-size: 0.95rem;
+  color: var(--color-primary-dark);
+}
+
+.miqat-aka {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.miqat-distance {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+}
+
+.miqat-note {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.miqat-europe-note {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  background: var(--color-surface);
+  border-left: 3px solid var(--color-primary);
+  margin-bottom: var(--space-md);
+}
+
+.miqat-europe-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.miqat-europe-note p {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  line-height: 1.6;
+}
+
+.miqat-warning {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  background: #FFF3E0;
+  border-left: 3px solid #FF9800;
+}
+
+.miqat-warning-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.miqat-warning p {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  line-height: 1.6;
+}
+
+/* Ihram */
+.ihram-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.ihram-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ihram-transform {
+  margin: var(--space-lg) 0;
+}
+
+.ihram-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 10px 20px;
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-xl);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: var(--space-lg);
+  transition: background 0.3s ease;
+}
+
+.ihram-toggle--after {
+  background: var(--color-accent-dark);
+}
+
+.ihram-toggle svg {
+  transition: transform 0.3s ease;
+}
+
+.ihram-toggle--after svg {
+  transform: rotate(180deg);
+}
+
+.ihram-visual {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2xl);
+  margin-bottom: var(--space-lg);
+}
+
+.ihram-before, .ihram-after {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.ihram-before.hidden, .ihram-after.hidden {
+  opacity: 0;
+  transform: scale(0.9);
+  position: absolute;
+  pointer-events: none;
+}
+
+.ihram-person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ihram-head {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-sand);
+  border: 2px solid var(--color-text-muted);
+}
+
+.ihram-head--bare {
+  border-color: var(--color-primary);
+}
+
+.ihram-body {
+  width: 50px;
+  height: 70px;
+  border-radius: 8px 8px 0 0;
+  margin-top: -4px;
+}
+
+.ihram-body--normal {
+  background: #607D8B;
+}
+
+.ihram-body--ihram {
+  background: #F5F5F5;
+  border: 1px solid #DDD;
+}
+
+.ihram-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+}
+
+.ihram-descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+/* Interdits */
+.interdits-title {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-danger);
+  margin-bottom: var(--space-md);
+}
+
+.interdits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-sm);
+}
+
+.interdit-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 12px var(--space-md);
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(221,68,68,0.15);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.ihram-section.visible .interdit-item {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.interdit-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.interdit-text {
+  font-size: 0.85rem;
+  color: var(--color-text);
+}
+
+/* Talbiyah */
+.talbiyah-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.talbiyah-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.talbiyah-card {
+  margin-top: var(--space-lg);
+  overflow: hidden;
+}
+
+.talbiyah-arabic {
+  background: var(--color-primary-dark);
+  color: white;
+  padding: var(--space-lg);
+  margin: calc(-1 * var(--space-lg));
+  margin-bottom: var(--space-lg);
+  font-size: 1.3rem;
+}
+
+.talbiyah-phonetic {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.talbiyah-phonetic .phonetic-text {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.talbiyah-copy {
+  background: var(--color-bg);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: var(--radius-sm);
+  padding: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s ease;
+  flex-shrink: 0;
+}
+
+.talbiyah-copy:hover {
+  background: var(--color-sand-light);
+}
+
+.talbiyah-translation p {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  .miqat-points {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+  }
+
+  .interdits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .talbiyah-arabic {
+    font-size: 1.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .interdits-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .interdits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .talbiyah-arabic {
+    font-size: 1.1rem;
+    padding: var(--space-md);
+    margin: calc(-1 * var(--space-lg));
+    margin-bottom: var(--space-md);
+  }
+}

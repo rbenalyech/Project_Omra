@@ -1,0 +1,112 @@
+.recap {
+  background: linear-gradient(170deg, var(--color-primary-dark) 0%, #1a3a4a 100%);
+  color: white;
+}
+
+.recap .section-title {
+  color: white;
+}
+
+.recap .section-subtitle {
+  color: rgba(255,255,255,0.6);
+}
+
+.recap .section-number {
+  color: var(--color-accent);
+}
+
+.recap-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(8px);
+  padding: var(--space-xl);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.recap-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.recap-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.recap-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.recap-card.visible .recap-step {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.recap-step-number {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.recap-step-emoji {
+  font-size: 1.5rem;
+}
+
+.recap-step-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.recap-step-label {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.recap-step-arrow {
+  opacity: 0.5;
+  margin: var(--space-xs) 0;
+}
+
+.recap-footer {
+  text-align: center;
+  margin-top: var(--space-xl);
+}
+
+.recap-dua {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--color-accent-light);
+  font-style: italic;
+  margin-bottom: var(--space-lg);
+  line-height: 1.6;
+}
+
+.recap .btn--outline {
+  color: rgba(255,255,255,0.7);
+  border-color: rgba(255,255,255,0.2);
+}
+
+.recap .btn--outline:hover {
+  background: rgba(255,255,255,0.1);
+  color: white;
+  border-color: rgba(255,255,255,0.3);
+}
