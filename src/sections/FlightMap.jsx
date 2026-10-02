@@ -2,13 +2,15 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import content from '../content/fr.json';
 import './FlightMap.css';
 
+const basePath = import.meta.env.BASE_URL;
+
 const CITIES = [
-  { name: 'Bruxelles', code: 'BRU', x: 285, y: 140, labelPos: 'top' },
-  { name: 'Athènes', code: 'ATH', x: 430, y: 210, labelPos: 'top' },
-  { name: 'Djeddah', code: 'JED', x: 500, y: 310, labelPos: 'right' },
+  { name: 'Bruxelles', code: 'BRU', x: 194, y: 82, labelPos: 'top' },
+  { name: 'Athènes', code: 'ATH', x: 387, y: 198, labelPos: 'top' },
+  { name: 'Djeddah', code: 'JED', x: 542, y: 347, labelPos: 'right' },
 ];
 
-const FLIGHT_PATH_D = 'M285,140 Q360,150 430,210 Q475,250 500,310';
+const FLIGHT_PATH_D = 'M194,82 Q290,120 387,198 Q470,265 542,347';
 
 export default function FlightMap() {
   const sectionRef = useRef(null);
@@ -73,20 +75,16 @@ export default function FlightMap() {
       </div>
 
       <div className="flight-map-container">
+        <div className="flight-map-visual">
         <svg
           viewBox="0 0 700 450"
           className="flight-svg"
           xmlns="http://www.w3.org/2000/svg"
         >
           <defs>
-            <radialGradient id="landGrad" cx="50%" cy="50%" r="60%">
-              <stop offset="0%" stopColor="#E8DCC8" />
-              <stop offset="100%" stopColor="#D4C4A8" />
-            </radialGradient>
-            <radialGradient id="waterGrad" cx="50%" cy="50%" r="60%">
-              <stop offset="0%" stopColor="#C5D8E8" />
-              <stop offset="100%" stopColor="#A8C4D8" />
-            </radialGradient>
+            <clipPath id="mapClip">
+              <rect width="700" height="450" rx="20" />
+            </clipPath>
             <filter id="glow">
               <feGaussianBlur stdDeviation="3" result="blur" />
               <feMerge>
@@ -94,24 +92,26 @@ export default function FlightMap() {
                 <feMergeNode in="SourceGraphic" />
               </feMerge>
             </filter>
+            <filter id="textShadow">
+              <feDropShadow dx="0" dy="1" stdDeviation="2" floodColor="#000" floodOpacity="0.7" />
+            </filter>
           </defs>
 
-          <rect width="700" height="450" fill="url(#waterGrad)" rx="20" />
+          <image
+            href={`${basePath}images/map-satellite.webp`}
+            width="700"
+            height="450"
+            preserveAspectRatio="xMidYMid slice"
+            clipPath="url(#mapClip)"
+          />
 
-          <ellipse cx="200" cy="180" rx="220" ry="140" fill="url(#landGrad)" opacity="0.7" />
-          <ellipse cx="500" cy="250" rx="180" ry="200" fill="url(#landGrad)" opacity="0.7" />
-          <ellipse cx="380" cy="160" rx="120" ry="60" fill="url(#landGrad)" opacity="0.5" />
-
-          <text x="120" y="100" fill="#88BBAA" fontSize="10" fontFamily="var(--font-body)" opacity="0.5">EUROPE</text>
-          <text x="520" y="150" fill="#88BBAA" fontSize="10" fontFamily="var(--font-body)" opacity="0.5">ASIE</text>
-          <text x="430" y="380" fill="#88BBAA" fontSize="10" fontFamily="var(--font-body)" opacity="0.5">ARABIE</text>
-          <text x="80" y="350" fill="#88BBAA" fontSize="10" fontFamily="var(--font-body)" opacity="0.5">AFRIQUE</text>
+          <rect width="700" height="450" rx="20" fill="rgba(0,0,0,0.15)" clipPath="url(#mapClip)" />
 
           <path
             ref={pathRef}
             d={FLIGHT_PATH_D}
             fill="none"
-            stroke="rgba(200,164,90,0.2)"
+            stroke="rgba(255,255,255,0.25)"
             strokeWidth="2"
             strokeDasharray="8 6"
           />
@@ -121,7 +121,7 @@ export default function FlightMap() {
             d={FLIGHT_PATH_D}
             fill="none"
             stroke="var(--color-accent)"
-            strokeWidth="2.5"
+            strokeWidth="3"
             filter="url(#glow)"
           />
 
@@ -130,42 +130,46 @@ export default function FlightMap() {
               <circle
                 cx={city.x}
                 cy={city.y}
-                r={activeCity >= i ? 7 : 5}
-                fill={activeCity >= i ? 'var(--color-accent)' : 'rgba(200,164,90,0.3)'}
+                r={activeCity >= i ? 8 : 5}
+                fill={activeCity >= i ? 'var(--color-accent)' : 'rgba(255,255,255,0.5)'}
+                stroke={activeCity >= i ? '#fff' : 'none'}
+                strokeWidth="2"
                 style={{ transition: 'fill 0.3s ease' }}
               />
               {activeCity === i && (
                 <circle
                   cx={city.x}
                   cy={city.y}
-                  r="14"
+                  r="16"
                   fill="none"
                   stroke="var(--color-accent)"
                   strokeWidth="1.5"
-                  opacity="0.5"
+                  opacity="0.6"
                   className="city-pulse"
                 />
               )}
               <text
                 x={city.x}
-                y={city.labelPos === 'top' ? city.y - 16 : city.y + 4}
-                dx={city.labelPos === 'right' ? 16 : 0}
+                y={city.labelPos === 'top' ? city.y - 18 : city.y + 4}
+                dx={city.labelPos === 'right' ? 18 : 0}
                 textAnchor={city.labelPos === 'right' ? 'start' : 'middle'}
-                fill={activeCity >= i ? 'var(--color-primary-dark)' : '#999'}
-                fontSize="12"
+                fill="#fff"
+                fontSize="13"
                 fontWeight="700"
                 fontFamily="var(--font-body)"
+                filter="url(#textShadow)"
               >
                 {city.code}
               </text>
               <text
                 x={city.x}
-                y={city.labelPos === 'top' ? city.y - 28 : city.y + 18}
-                dx={city.labelPos === 'right' ? 16 : 0}
+                y={city.labelPos === 'top' ? city.y - 32 : city.y + 18}
+                dx={city.labelPos === 'right' ? 18 : 0}
                 textAnchor={city.labelPos === 'right' ? 'start' : 'middle'}
-                fill={activeCity >= i ? 'var(--color-text-light)' : '#bbb'}
+                fill="rgba(255,255,255,0.85)"
                 fontSize="9"
                 fontFamily="var(--font-body)"
+                filter="url(#textShadow)"
               >
                 {city.name}
               </text>
@@ -174,8 +178,8 @@ export default function FlightMap() {
 
           {showMiqat && (
             <g className="miqat-marker">
-              <circle cx="490" cy="290" r="18" fill="none" stroke="#D44" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.7" />
-              <text x="490" y="294" textAnchor="middle" fill="#D44" fontSize="8" fontWeight="700" fontFamily="var(--font-body)">MIQAT</text>
+              <circle cx="525" cy="320" r="20" fill="none" stroke="#FF6B6B" strokeWidth="2" strokeDasharray="4 3" opacity="0.8" />
+              <text x="525" y="324" textAnchor="middle" fill="#FF6B6B" fontSize="8" fontWeight="700" fontFamily="var(--font-body)" filter="url(#textShadow)">MIQAT</text>
             </g>
           )}
 
@@ -183,7 +187,7 @@ export default function FlightMap() {
             <g transform="translate(-12,-12) scale(1)">
               <path
                 d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"
-                fill="var(--color-primary)"
+                fill="#fff"
               />
             </g>
           </g>
@@ -209,25 +213,25 @@ export default function FlightMap() {
             </div>
           )}
         </div>
-
-      </div>
-
-      {content.vol.flightDetails && (
-        <div className="flight-details-card card">
-          <h4 className="flight-details-title">{content.vol.flightDetails.airline}</h4>
-          <p className="flight-details-total">Durée totale : {content.vol.flightDetails.totalDuration} — Classe {content.vol.flightDetails.class}</p>
-          <div className="flight-legs">
-            {content.vol.flightDetails.outbound.map((leg, i) => (
-              <div key={i} className="flight-leg">
-                <span className="flight-leg-badge">Vol {leg.flight}</span>
-                <span className="flight-leg-route">{leg.from} → {leg.to}</span>
-                <span className="flight-leg-times">{leg.departure} → {leg.arrival}</span>
-                <span className="flight-leg-duration">{leg.duration}</span>
-              </div>
-            ))}
-          </div>
         </div>
-      )}
+
+        {content.vol.flightDetails && (
+          <div className="flight-details-card card">
+            <h4 className="flight-details-title">{content.vol.flightDetails.airline}</h4>
+            <p className="flight-details-total">Durée totale : {content.vol.flightDetails.totalDuration} — Classe {content.vol.flightDetails.class}</p>
+            <div className="flight-legs">
+              {content.vol.flightDetails.outbound.map((leg, i) => (
+                <div key={i} className="flight-leg">
+                  <span className="flight-leg-badge">Vol {leg.flight}</span>
+                  <span className="flight-leg-route">{leg.from} → {leg.to}</span>
+                  <span className="flight-leg-times">{leg.departure} → {leg.arrival}</span>
+                  <span className="flight-leg-duration">{leg.duration}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
     </section>
   );
 }

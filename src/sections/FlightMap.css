@@ -13,11 +13,16 @@
   top: 20px;
 }
 
+.flight-map-visual {
+  position: relative;
+}
+
 .flight-svg {
   width: 100%;
   height: auto;
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+  overflow: hidden;
 }
 
 .city-dot {
@@ -29,12 +34,12 @@
 }
 
 @keyframes pulse {
-  0%, 100% { r: 14; opacity: 0.5; }
-  50% { r: 20; opacity: 0; }
+  0%, 100% { r: 16; opacity: 0.5; }
+  50% { r: 24; opacity: 0; }
 }
 
 .plane-icon {
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4));
 }
 
 .miqat-marker {
@@ -100,14 +105,11 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Flight details */
+/* Flight details - inside sticky container */
 .flight-details-card {
-  margin-top: var(--space-lg);
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: var(--space-md);
   position: relative;
-  z-index: 2;
+  z-index: 5;
 }
 
 .flight-details-title {
@@ -191,4 +193,5 @@
   .flight-info-card {
     max-width: 100%;
   }
+
 }
