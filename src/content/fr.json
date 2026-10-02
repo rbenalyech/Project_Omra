@@ -137,86 +137,244 @@
     "sectionTitle": "La sacralisation",
     "sectionSubtitle": "L'entrée en état d'Ihram",
     "miqat": {
-      "title": "Les 5 Miqat",
-      "description": "Toute personne passant par un lieu de sacralisation (Miqat) pour accomplir le Hajj ou la Omra doit s'y mettre en état d'Ihram.",
+      "title": "Les 5 Miqat (lieux de sacralisation)",
+      "description": "Toute personne passant par un lieu de sacralisation (Miqat), ou à sa hauteur, pour accomplir le pèlerinage (Hajj) ou la visite pieuse ('Umra), doit s'y mettre en état de sacralisation (Ihram).",
       "points": [
         { "name": "Dhul-Hulayfah", "aka": "Abar Ali", "distance": "427 km de La Mecque", "note": "À la sortie de Madinah" },
-        { "name": "Al-Juhfah", "aka": "", "distance": "204 km de La Mecque", "note": "" },
+        { "name": "Al-Juhfah", "aka": "", "distance": "204 km de La Mecque", "note": "Près de Rabigh" },
         { "name": "Yalamlam", "aka": "As-Sa'diyah", "distance": "94 km de La Mecque", "note": "" },
-        { "name": "Qarn al-Manâzil", "aka": "Al-Seyl al-Kabir", "distance": "94 km de La Mecque", "note": "" },
+        { "name": "Qarn al-Manâzil", "aka": "Al-Seyl al-Kabîr", "distance": "94 km de La Mecque", "note": "Près de Ta'if" },
         { "name": "Dhât 'Irq", "aka": "", "distance": "98 km de La Mecque", "note": "" }
       ],
-      "europeNote": "Les pèlerins venant d'Europe se sacralisent soit dans l'avion (~20-30 min avant Djeddah), soit à Dhul-Hulayfah s'ils visitent Madinah d'abord.",
-      "warning": "Si tu dépasses ces points sans te sacraliser, tu devras y retourner. Sinon, tu devras sacrifier une bête (al-Haram)."
+      "europeNote": "La plupart des pèlerins en provenance d'Europe se sacralisent : soit dans l'avion, environ 20 à 30 minutes avant d'atterrir à l'aéroport de Jeddah, s'ils se rendent à Mekkah directement ; soit à Dhul-Hulayfah, s'ils ont visité Madinah avant de se rendre à Mekkah.",
+      "warning": "Quiconque dépasse ces points sans se sacraliser devra y retourner pour le faire. S'il ne le fait pas, il devra sacrifier une bête et en distribuer la viande aux pauvres du périmètre sacré (al-Haram)."
+    },
+    "preparation": {
+      "title": "La préparation",
+      "intro": "Il est recommandé de se préparer en effectuant un bain rituel et en revêtant l'habit de sacralisation (al-Ihram). Le pèlerin peut endosser son habit de sacralisation avant d'atteindre le Miqat, et il peut même le faire chez lui. Cependant, il ne formulera l'intention d'entrer en état de sacralisation que peu avant le Miqat.",
+      "homme": {
+        "title": "Il est recommandé (Sunna) à l'homme",
+        "steps": [
+          "Accomplir un bain rituel (Ghusl)",
+          "Se couper les ongles, se raser les aisselles et le pubis, se tailler la moustache",
+          "Se parfumer le corps, la tête et la barbe — mais ne pas parfumer ses vêtements",
+          "Revêtir l'habit de sacralisation : le pagne (Izâr) autour de la taille et la pièce supérieure (Ridâ') qui couvre les deux épaules"
+        ],
+        "warning": "Il est obligatoire de se couvrir les deux épaules. On ne découvre l'épaule droite que pendant le premier Tawâf de la 'Umra."
+      },
+      "femme": {
+        "title": "Quant à la femme",
+        "steps": [
+          "Accomplir le bain rituel et se laver, même si elle est en période de règles ou de lochies",
+          "Porter ses vêtements habituels tant qu'ils couvrent son corps et ne comportent pas d'embellissements",
+          "Ne pas porter de voile qui s'attache sur le visage (niqâb) ni de gants",
+          "Elle peut porter un voile posé sur la tête (khimâr) qui se rabat sur le visage en présence d'hommes non-proches"
+        ],
+        "note": "Il n'y a pas de couleur privilégiée pour sa tenue, mais elle doit éviter le blanc pour ne pas ressembler aux hommes."
+      }
+    },
+    "entree": {
+      "title": "L'entrée en état de sacralisation",
+      "text": "L'Ihram est le fait de formuler l'intention de commencer les rites du Hajj ou de la 'Umra. Si l'heure de la prière arrive, il est recommandé de d'abord prier, puis d'entrer en état de sacralisation.",
+      "declaration": {
+        "arabic": "لَبَّيْكَ اللَّهُمَّ بِعُمْرَةٍ",
+        "phonetic": "Labbayk Allahumma bi-'Umra.",
+        "translation": "Je réponds à ton appel, ô Allah, par une 'Umra."
+      }
+    },
+    "condition": {
+      "title": "La formule de condition",
+      "text": "Le pèlerin peut formuler la condition juste avant de prononcer la Talbiyah, s'il craint que quelque chose ne vienne entraver l'accomplissement de sa 'Umra, comme la maladie ou un danger :",
+      "arabic": "اللَّهُمَّ مَحِلِّي حَيْثُ حَبَسْتَنِي",
+      "phonetic": "Allâhumma mahillî haythu habastanî.",
+      "translation": "Ô Allah, je sortirai de mon état de sacralisation là où Tu m'auras arrêté.",
+      "source": "Rapporté par Al-Bukhârî et Muslim",
+      "effect": "Si le pèlerin a émis cette condition et que quelque chose l'empêche de terminer ses rites ou s'il tombe malade, il a le droit de sortir de l'état de sacralisation sans devoir sacrifier de bête ni accomplir de Hajj en compensation."
     },
     "ihram": {
       "title": "L'Ihram",
-      "descriptionHomme": "Deux pièces de tissu blanc non cousues pour l'homme.",
-      "descriptionFemme": "Tenue couvrante habituelle pour la femme (pas de niqab ni de gants en état de sacralisation).",
-      "interdits": [
-        { "text": "Se parfumer", "icon": "perfume" },
-        { "text": "Se couper les ongles", "icon": "nails" },
-        { "text": "Se couper les cheveux", "icon": "scissors" },
-        { "text": "Relations conjugales", "icon": "heart" },
-        { "text": "Chasser", "icon": "hunt" },
-        { "text": "Porter des vêtements cousus (homme)", "icon": "shirt" },
-        { "text": "Se couvrir la tête (homme)", "icon": "hat" }
-      ]
+      "descriptionHomme": "Deux pièces de tissu blanc non cousues : le pagne (Izâr) autour de la taille et la pièce supérieure (Ridâ') sur les deux épaules.",
+      "descriptionFemme": "Vêtements habituels couvrant le corps, sans embellissements. Pas de niqâb ni de gants en état de sacralisation.",
+      "interditsCommuns": {
+        "title": "Interdit pour l'homme et la femme",
+        "items": [
+          { "text": "Se raser la tête, se couper les cheveux, les ongles ou la peau", "icon": "scissors" },
+          { "text": "Se parfumer, quel que soit le type de parfum", "icon": "perfume" },
+          { "text": "Se marier ou demander en mariage", "icon": "heart" },
+          { "text": "Les rapports conjugaux et leurs prémices", "icon": "forbidden" },
+          { "text": "Chasser du gibier ou participer à la chasse", "icon": "hunt" }
+        ]
+      },
+      "interditsHomme": {
+        "title": "Interdit pour les hommes seulement",
+        "items": [
+          { "text": "Porter des vêtements qui épousent la forme du corps (chemise, pantalon, chaussettes...)", "icon": "shirt" },
+          { "text": "Se couvrir la tête avec quelque chose en contact direct (turban, masque...)", "icon": "hat" }
+        ],
+        "autorise": "En revanche, il est autorisé d'utiliser un parasol, de porter ses affaires sur la tête, ou de porter une ceinture, une montre et des lunettes de soleil."
+      },
+      "interditsFemme": {
+        "title": "Interdit pour les femmes seulement",
+        "items": [
+          { "text": "Porter des gants", "icon": "gloves" },
+          { "text": "Se couvrir le visage avec la burqa', le niqâb ou voile qui s'attache sur le visage", "icon": "veil" }
+        ]
+      },
+      "oubli": "Quant à celui qui enfreint les interdits par oubli, ignorance ou contrainte, il n'a pas à compenser."
     },
     "talbiyah": {
       "title": "La Talbiyah",
+      "intro": "Il est recommandé (Sunna) à l'homme d'élever la voix en prononçant la formule de Talbiyah et de la répéter souvent. Quant à la femme, il est recommandé qu'elle prononce la Talbiyah sans élever la voix.",
       "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
-      "phonetic": "Labbayk Allahumma labbayk, labbayka lâ sharîka laka labbayk, inna-l-hamda wan-ni'mata laka wal-mulk, lâ sharîka lak.",
-      "translation": "Me voici, ô Allah, me voici. Me voici, Tu n'as aucun associé, me voici. La louange, la grâce et la royauté T'appartiennent. Tu n'as aucun associé.",
-      "instruction": "À réciter dès l'entrée en état d'Ihram et à répéter tout au long du trajet."
+      "phonetic": "Labbayk Allahumma labbayk, labbayka lâ sharîka laka labbayk, inna-l-hamda wan-ni'mata Laka wal-mulk, lâ sharîka lak.",
+      "translation": "Me voici, ô Allah, me voici. Me voici, Tu n'as pas d'associé, me voici. En vérité la louange, la grâce et la royauté T'appartiennent. Tu n'as pas d'associé.",
+      "instruction": "Le pèlerin prononce la Talbiyah à partir du moment où il entre en état de sacralisation jusqu'à ce qu'il commence les tours autour de la Ka'bah."
+    },
+    "tableau": {
+      "title": "Piliers, obligations et Sunan de la 'Umra",
+      "piliers": {
+        "title": "Les Piliers",
+        "consequence": "Le manquement à un pilier rend la 'Umra invalide.",
+        "items": [
+          "Se mettre en état de sacralisation (Ihram) qui est l'intention de commencer les rites",
+          "Les sept tours autour de la Ka'bah (Tawâf)",
+          "Les allers et retours entre les monts Safâ et Marwah (Sa'i)"
+        ]
+      },
+      "obligations": {
+        "title": "Les Obligations",
+        "consequence": "Le manquement à une obligation doit être compensé par un sacrifice fait et distribué à Mekkah.",
+        "items": [
+          "Se mettre en état de sacralisation au Miqât",
+          "Se raser la tête ou se couper les cheveux"
+        ]
+      },
+      "sunan": {
+        "title": "Les Sunan",
+        "consequence": "Celui qui accomplit tout acte confirmé par la Sunna en a la récompense ; s'il le délaisse, il n'encourt pas de blâme.",
+        "items": [
+          "Boire de l'eau de Zamzam et s'en verser sur la tête",
+          "Toucher la Pierre Noire",
+          "Toutes les autres Sunnan mentionnées dans les étapes"
+        ]
+      }
     }
   },
   "omra": {
-    "sectionTitle": "Les étapes de la Omra",
+    "sectionTitle": "Les étapes de la 'Umra",
     "sectionSubtitle": "À la Mosquée Sacrée de La Mecque",
+    "arriveeMekkah": {
+      "title": "Arrivée à Mekkah",
+      "text": "Si on en a la possibilité, on se lave en entrant à Mekkah, et on y entre de jour.",
+      "mosqueeEntry": {
+        "instruction": "N'oublie pas de rentrer avec le pied droit en premier et de dire :",
+        "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَسَلِّمْ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+        "phonetic": "Allâhumma salli 'alâ Muhammadin wa sallim, Allâhumma ftah lî abwâba rahmatik.",
+        "translation": "Ô Allah, prie et salue sur Muhammad, ô Allah, ouvre-moi les portes de Ta miséricorde."
+      },
+      "voirKaaba": {
+        "instruction": "Lorsque le pèlerin voit la Ka'bah pour la première fois, il peut lever les mains et invoquer :",
+        "arabic": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ فَحَيِّنَا رَبَّنَا بِالسَّلَامِ",
+        "phonetic": "Allâhumma Antas-salâmu, wa Minkas-salâmu fa hayyinâ Rabbanâ bis-salâm.",
+        "translation": "Ô Allah, Tu es la Paix, de Toi vient la Paix, garde-nous, ô Seigneur, dans la Paix."
+      }
+    },
     "steps": [
       {
         "number": 1,
         "title": "Le Tawaf",
         "subtitle": "7 tours autour de la Kaaba",
-        "description": "Tourne autour de la Kaaba dans le sens inverse des aiguilles d'une montre, en commençant depuis la Pierre Noire.",
-        "tips": ["Sens : antihoraire", "Départ : Pierre Noire", "7 tours complets"],
+        "description": "Le pèlerin va démarrer ses tours en plaçant la Ka'bah à sa gauche, en partant de la Pierre Noire.",
+        "pierreNoire": {
+          "instruction": "Au début de chaque tour, à la Pierre Noire, on dit :",
+          "arabic": "بِسْمِ اللهِ. اللهُ أَكْبَرُ",
+          "phonetic": "Bismi Llâhi. Allâhu Akbar !",
+          "translation": "Au nom d'Allah. Allah est le Plus Grand !"
+        },
+        "idhtiba": "Il fait partie de la Sunna de découvrir l'épaule droite (Idhtibâ') en passant le milieu du Ridâ' sous l'aisselle droite et en rabattant l'extrémité sur l'épaule gauche — pendant les sept tours du Tawâf.",
+        "raml": "Dans les trois premiers tours, il est Sunna de trottiner (Raml) : faire de petits pas rapides et rapprochés. La femme marche normalement pendant les sept tours.",
+        "coinYemenite": {
+          "instruction": "Au coin yéménite, on le touche sans l'embrasser. Entre le coin yéménite et la Pierre Noire, on récite :",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "phonetic": "Rabbanâ âtinâ fid-dunyâ hasanatan wa fil-âkhirati hasanatan wa qinâ 'adhâban nâr.",
+          "translation": "Ô Allah, accorde-nous une belle part ici-bas, ainsi qu'une belle part dans l'Au-delà, et protège-nous du châtiment du Feu.",
+          "source": "Al-Baqarah, v. 201"
+        },
+        "pendantTours": "On effectue sept tours autour de la Ka'bah en récitant ce que l'on veut comme invocations ou passages du Coran, sans élever la voix.",
+        "tips": ["Sens : antihoraire (Ka'bah à ta gauche)", "Départ : Pierre Noire", "7 tours complets", "Trottiner les 3 premiers tours (homme)"],
         "icon": "tawaf"
       },
       {
         "number": 2,
         "title": "Prière au Maqâm Ibrâhîm",
         "subtitle": "2 rak'ah après le Tawaf",
-        "description": "Après les 7 tours, prie 2 unités de prière derrière la Station d'Abraham (Maqâm Ibrâhîm) si possible.",
-        "tips": ["2 rak'ah", "Derrière le Maqâm si possible", "Sourate Al-Kâfirûn + Al-Ikhlâs"],
+        "description": "On se dirige vers la station d'Abraham (Maqâm Ibrâhîm) après avoir recouvert les deux épaules.",
+        "verset": {
+          "arabic": "وَاتَّخِذُوا مِنْ مَقَامِ إِبْرَاهِيمَ مُصَلًّى",
+          "phonetic": "Wat-takhidhû mim maqâmi Ibrâhîma musallâ.",
+          "translation": "Prenez la station d'Abraham comme lieu de prière.",
+          "source": "Al-Baqarah, v. 125"
+        },
+        "details": "Puis, on accomplit deux unités de prière, si possible, derrière la station d'Abraham. Sinon, on prie dans n'importe quel autre endroit de la Mosquée sacrée.",
+        "tips": ["2 rak'ah derrière le Maqâm si possible", "1ère rak'ah : Al-Fâtihah + Al-Kâfirûn", "2e rak'ah : Al-Fâtihah + Al-Ikhlâs", "Recouvrir les deux épaules"],
         "icon": "prayer"
       },
       {
         "number": 3,
         "title": "L'eau de Zamzam",
         "subtitle": "Boire l'eau bénite",
-        "description": "Bois l'eau de Zamzam en faisant des invocations. Elle est disponible gratuitement dans la mosquée.",
-        "tips": ["Gratuite dans la mosquée", "Invoque Allah en buvant"],
+        "description": "Une fois la prière terminée, le pèlerin va boire de l'eau de Zamzam et il peut s'en verser sur la tête.",
+        "hadiths": [
+          "« L'eau de Zamzam est une cause d'exaucement de l'intention pour laquelle on la boit. »",
+          "« Elle est bénie, elle nourrit comme un aliment et guérit le malade. »"
+        ],
+        "suite": "Puis, il retourne à la Pierre Noire, dit « Allâhu Akbar » et la touche ou tend la main en sa direction.",
+        "tips": ["Gratuite dans la mosquée", "Invoque Allah en buvant", "On peut s'en verser sur la tête"],
         "icon": "water"
       },
       {
         "number": 4,
         "title": "Le Sa'i",
         "subtitle": "7 trajets entre Safâ et Marwah",
-        "description": "Effectue 7 allers-retours entre les monts Safâ et Marwah. Safâ → Marwah = 1 trajet, Marwah → Safâ = 1 trajet.",
-        "tips": ["Départ de Safâ", "Arrivée à Marwah au 7e trajet", "Invocations à chaque mont"],
+        "description": "Le pèlerin se dirige vers le lieu où on effectue les allers-retours (Mas'â).",
+        "montSafa": {
+          "instruction": "En gravissant le mont Safâ, la première fois seulement, on dit :",
+          "arabic": "إِنَّ الصَّفَا وَالمَرْوَةَ مِنْ شَعَائِرِ اللهِ",
+          "phonetic": "Inn as-Safâ wal-Marwata min sha'â'iri Llâhi...",
+          "translation": "En vérité, Safâ et Marwah font partie des rites sacrés d'Allah...",
+          "source": "Al-Baqarah, v. 158",
+          "ajout": "On rajoute : « Abda'u bimâ bada'a Allahu bihi » — Je commence par ce qu'Allah a cité en premier."
+        },
+        "surSafa": {
+          "instruction": "Sur le monticule Safâ, on se tourne vers la Ka'bah et on dit :",
+          "arabic": "اللهُ أَكْبَرُ اللهُ أَكْبَرُ اللهُ أَكْبَرُ لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الحَمْدُ يُحْيِي وَيُمِيتُ وَ هُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+          "phonetic": "Allâhu Akbaru, Allâhu Akbaru, Allâhu Akbar. Lâ Ilâha illa Llâhu Wahdahu lâ sharîka Lahu, Lah ul-mulku wa Lah ul-hamdu, yuhyî wa yumîtu, wa Huwa 'alâ kulli shay'in qadîr...",
+          "translation": "Allah est le Plus Grand (x3). Il n'y a pas de divinité autre qu'Allah, Seul, sans associé. À Lui la souveraineté et la louange. Il donne la vie et fait mourir, et Il est Capable de toutes choses...",
+          "note": "On fait des invocations en levant les mains, face à la Ka'bah. On répète cela trois fois."
+        },
+        "versMarwah": "On descend de Safâ vers Marwah. En arrivant à hauteur du repère vert, l'homme court entre celui-ci et le prochain repère. La femme continue à marcher normalement.",
+        "pendantTrajet": {
+          "arabic": "رَبِّ اغْفِرْ وَ ارْحَمْ، إِنَّكَ أَنْتَ الأَعَزُّ الأَكْرَمُ",
+          "phonetic": "Rabbi ghfir wa rham, Innaka Anta al-A'azz ul-Akram.",
+          "translation": "Seigneur, pardonne-nous et fais-nous miséricorde, car Tu es le Plus Puissant, le Plus Noble."
+        },
+        "comptage": "Safâ → Marwah = 1 trajet. Marwah → Safâ = 1 trajet. Au 7e trajet, on se retrouve donc à Marwah.",
+        "tips": ["Départ de Safâ", "Homme court entre les repères verts", "Femme marche normalement", "Arrivée à Marwah au 7e trajet", "Invocations à chaque mont"],
         "icon": "sai"
       },
       {
         "number": 5,
         "title": "Le rasage / raccourcissement",
         "subtitle": "Halq ou Taqsir",
-        "description": "L'homme se rase la tête (Halq, recommandé) ou raccourcit ses cheveux (Taqsir). La femme coupe une petite mèche.",
-        "tips": ["Halq (rasage) = préférable pour l'homme", "Taqsir = couper quelques cm", "Femme : petite mèche seulement"],
+        "description": "Après les allers-retours entre Safâ et Marwah (Sa'y), l'homme doit se raser la tête ou se couper les cheveux.",
+        "homme": "L'homme se rase la tête (Halq, recommandé) ou se coupe les cheveux (Taqsir). Le rasage ou la coupe doit se faire sur toute la surface de la tête. Il n'est pas autorisé de raser une partie et d'en laisser une autre.",
+        "femme": "La femme rassemble ses cheveux et en coupe les extrémités de la longueur d'une phalange.",
+        "fin": "C'est ainsi que les pèlerins sortent de leur état de sacralisation, et qu'ils sont à nouveau autorisés à faire tout ce qu'ils avaient le droit de faire avant d'entrer en état de sacralisation.",
+        "tips": ["Halq (rasage complet) = préférable pour l'homme", "Taqsir = couper quelques cm sur toute la tête", "Femme : petite mèche (longueur d'une phalange)", "Ne pas raser une partie et laisser l'autre"],
         "icon": "razor"
       }
     ],
-    "completionNote": "La Omra est maintenant terminée ! Tu peux retirer l'Ihram et reprendre ta vie normale."
+    "completionNote": "La 'Umra est maintenant terminée ! Tu peux retirer l'Ihram et reprendre ta vie normale."
   },
   "medine": {
     "sectionTitle": "Le séjour à Médine",
@@ -227,12 +385,64 @@
   "invocations": {
     "sectionTitle": "Invocations essentielles",
     "sectionSubtitle": "Les duas du pèlerin",
-    "placeholder": true,
-    "note": "Contenu à compléter avec les photos du chapitre 7 du livre."
+    "placeholder": false,
+    "list": [
+      {
+        "moment": "En entrant à la mosquée",
+        "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَسَلِّمْ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+        "phonetic": "Allâhumma salli 'alâ Muhammadin wa sallim, Allâhumma ftah lî abwâba rahmatik.",
+        "translation": "Ô Allah, prie et salue sur Muhammad, ô Allah, ouvre-moi les portes de Ta miséricorde."
+      },
+      {
+        "moment": "En voyant la Ka'bah",
+        "arabic": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ فَحَيِّنَا رَبَّنَا بِالسَّلَامِ",
+        "phonetic": "Allâhumma Antas-salâmu, wa Minkas-salâmu fa hayyinâ Rabbanâ bis-salâm.",
+        "translation": "Ô Allah, Tu es la Paix, de Toi vient la Paix, garde-nous, ô Seigneur, dans la Paix."
+      },
+      {
+        "moment": "À la Pierre Noire",
+        "arabic": "بِسْمِ اللهِ. اللهُ أَكْبَرُ",
+        "phonetic": "Bismi Llâhi. Allâhu Akbar !",
+        "translation": "Au nom d'Allah. Allah est le Plus Grand !"
+      },
+      {
+        "moment": "Entre le coin yéménite et la Pierre Noire",
+        "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+        "phonetic": "Rabbanâ âtinâ fid-dunyâ hasanatan wa fil-âkhirati hasanatan wa qinâ 'adhâban nâr.",
+        "translation": "Ô Allah, accorde-nous une belle part ici-bas et dans l'Au-delà, et protège-nous du châtiment du Feu.",
+        "source": "Al-Baqarah, v. 201"
+      },
+      {
+        "moment": "La Talbiyah",
+        "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+        "phonetic": "Labbayk Allahumma labbayk, labbayka lâ sharîka laka labbayk, inna-l-hamda wan-ni'mata Laka wal-mulk, lâ sharîka lak.",
+        "translation": "Me voici, ô Allah, me voici. Me voici, Tu n'as pas d'associé, me voici. La louange, la grâce et la royauté T'appartiennent. Tu n'as pas d'associé."
+      },
+      {
+        "moment": "En gravissant Safâ (1ère fois)",
+        "arabic": "إِنَّ الصَّفَا وَالمَرْوَةَ مِنْ شَعَائِرِ اللهِ",
+        "phonetic": "Inn as-Safâ wal-Marwata min sha'â'iri Llâhi...",
+        "translation": "En vérité, Safâ et Marwah font partie des rites sacrés d'Allah...",
+        "source": "Al-Baqarah, v. 158"
+      },
+      {
+        "moment": "Pendant le Sa'i",
+        "arabic": "رَبِّ اغْفِرْ وَ ارْحَمْ، إِنَّكَ أَنْتَ الأَعَزُّ الأَكْرَمُ",
+        "phonetic": "Rabbi ghfir wa rham, Innaka Anta al-A'azz ul-Akram.",
+        "translation": "Seigneur, pardonne-nous et fais-nous miséricorde, car Tu es le Plus Puissant, le Plus Noble."
+      },
+      {
+        "moment": "Formule de condition (optionnelle)",
+        "arabic": "اللَّهُمَّ مَحِلِّي حَيْثُ حَبَسْتَنِي",
+        "phonetic": "Allâhumma mahillî haythu habastanî.",
+        "translation": "Ô Allah, je sortirai de mon état de sacralisation là où Tu m'auras arrêté.",
+        "source": "Rapporté par Al-Bukhârî et Muslim"
+      }
+    ]
   },
   "recap": {
     "sectionTitle": "Récapitulatif",
-    "sectionSubtitle": "Toute la Omra en un coup d'œil",
+    "sectionSubtitle": "Toute la 'Umra en un coup d'œil",
     "steps": [
       "Ihram + Talbiyah",
       "Tawaf (7 tours)",

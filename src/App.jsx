@@ -6,6 +6,7 @@ import Aeroport from './sections/Aeroport';
 import FlightMap from './sections/FlightMap';
 import Sacralisation from './sections/Sacralisation';
 import OmraSteps from './sections/OmraSteps';
+import Invocations from './sections/Invocations';
 import Placeholder from './sections/Placeholder';
 import Recap from './sections/Recap';
 import content from './content/fr.json';
@@ -33,13 +34,7 @@ function App() {
           note={content.medine.note}
         />
 
-        <Placeholder
-          id="invocations"
-          number="Chapitre 8"
-          title={content.invocations.sectionTitle}
-          subtitle={content.invocations.sectionSubtitle}
-          note={content.invocations.note}
-        />
+        <Invocations />
 
         <Recap />
       </main>
