@@ -5,12 +5,12 @@ import './FlightMap.css';
 const basePath = import.meta.env.BASE_URL;
 
 const CITIES = [
-  { name: 'Bruxelles', code: 'BRU', x: 215, y: 82, labelPos: 'top' },
-  { name: 'Athènes', code: 'ATH', x: 378, y: 255, labelPos: 'top' },
-  { name: 'Djeddah', code: 'JED', x: 548, y: 395, labelPos: 'right' },
+  { name: 'Bruxelles', code: 'BRU', x: 214, y: 111, labelPos: 'top' },
+  { name: 'Athènes', code: 'ATH', x: 419, y: 239, labelPos: 'top' },
+  { name: 'Djeddah', code: 'JED', x: 584, y: 379, labelPos: 'right' },
 ];
 
-const FLIGHT_PATH_D = 'M215,82 Q300,145 378,255 Q468,320 548,395';
+const FLIGHT_PATH_D = 'M214,111 Q320,160 419,239 Q505,305 584,379';
 
 export default function FlightMap() {
   const sectionRef = useRef(null);
@@ -178,8 +178,8 @@ export default function FlightMap() {
 
           {showMiqat && (
             <g className="miqat-marker">
-              <circle cx="530" cy="375" r="20" fill="none" stroke="#FF6B6B" strokeWidth="2" strokeDasharray="4 3" opacity="0.8" />
-              <text x="530" y="379" textAnchor="middle" fill="#FF6B6B" fontSize="8" fontWeight="700" fontFamily="var(--font-body)" filter="url(#textShadow)">MIQAT</text>
+              <circle cx="565" cy="360" r="20" fill="none" stroke="#FF6B6B" strokeWidth="2" strokeDasharray="4 3" opacity="0.8" />
+              <text x="565" y="364" textAnchor="middle" fill="#FF6B6B" fontSize="8" fontWeight="700" fontFamily="var(--font-body)" filter="url(#textShadow)">MIQAT</text>
             </g>
           )}
 
