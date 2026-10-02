@@ -14,6 +14,7 @@ import './styles/global.css';
 function App() {
   return (
     <>
+      <a href="#preparatifs" className="skip-link">Aller au contenu</a>
       <ProgressBar />
       <Nav />
 

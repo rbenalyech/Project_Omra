@@ -11,7 +11,7 @@ export default function Recap() {
     <section id="recap" className="recap section">
       <div className="section-inner">
         <div className="section-header">
-          <span className="section-number">Recap</span>
+          <span className="section-number">Récap</span>
           <h2 className="section-title">{content.recap.sectionTitle}</h2>
           <p className="section-subtitle">{content.recap.sectionSubtitle}</p>
         </div>
@@ -43,7 +43,7 @@ export default function Recap() {
 
         <div className="recap-footer">
           <p className="recap-dua">
-            Qu'Allah accepte ta Omra et te facilite chaque etape du voyage.
+            Qu'Allah accepte ta Omra et te facilite chaque étape du voyage.
           </p>
           <button
             className="btn btn--outline"
@@ -52,6 +52,15 @@ export default function Recap() {
             Revenir en haut
           </button>
         </div>
+
+        <footer className="site-footer">
+          <p className="footer-source">
+            Contenu extrait du livre <em>« Le guide du Hajj et de la Omra »</em> — Éditions BDouin.
+          </p>
+          <p className="footer-disclaimer">
+            Ce site est un outil pédagogique. En cas de doute, consulte un savant.
+          </p>
+        </footer>
       </div>
     </section>
   );

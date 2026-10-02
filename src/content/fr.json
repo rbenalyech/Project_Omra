@@ -379,7 +379,6 @@
   "medine": {
     "sectionTitle": "Le séjour à Madinah",
     "sectionSubtitle": "La ville du Prophète ﷺ",
-    "placeholder": false,
     "remarques": {
       "title": "Remarques importantes",
       "points": [
@@ -502,7 +501,6 @@
   "invocations": {
     "sectionTitle": "Invocations essentielles",
     "sectionSubtitle": "Les duas du pèlerin",
-    "placeholder": false,
     "list": [
       {
         "moment": "En entrant à la mosquée",

@@ -160,118 +160,7 @@ function EntreeSection() {
   );
 }
 
-function IhramManSvg() {
-  return (
-    <svg viewBox="0 0 120 200" className="ihram-svg" aria-label="Homme en Ihram">
-      {/* Head */}
-      <circle cx="60" cy="30" r="18" fill="#D4A574" />
-      {/* Hair/beard */}
-      <ellipse cx="60" cy="24" rx="16" ry="12" fill="#2C1810" />
-      <path d="M48 35 Q52 42 60 44 Q68 42 72 35" fill="#2C1810" />
-      {/* Eyes */}
-      <circle cx="53" cy="30" r="1.5" fill="#1a1a1a" />
-      <circle cx="67" cy="30" r="1.5" fill="#1a1a1a" />
-      {/* Ridâ' (upper cloth) - left shoulder covered, right exposed */}
-      <path d="M38 50 Q42 48 60 52 L80 50 L82 55 L60 56 L38 55 Z" fill="#F5F0E8" stroke="#E0D8C8" strokeWidth="0.5" />
-      <path d="M38 55 L38 100 Q40 105 50 108 L60 110 L60 56 Z" fill="#F5F0E8" stroke="#E0D8C8" strokeWidth="0.5" />
-      <path d="M60 56 L60 110 Q60 112 55 115 L38 100" fill="none" />
-      {/* Right shoulder exposed */}
-      <circle cx="75" cy="50" r="5" fill="#D4A574" />
-      {/* Right arm */}
-      <path d="M78 55 Q82 75 78 95" stroke="#D4A574" strokeWidth="5" fill="none" strokeLinecap="round" />
-      {/* Left arm under cloth */}
-      <path d="M42 55 Q38 75 42 95" stroke="#F5F0E8" strokeWidth="6" fill="none" strokeLinecap="round" />
-      {/* Izâr (lower cloth / pagne) */}
-      <path d="M42 108 L42 175 Q45 178 60 180 Q75 178 78 175 L78 108 Q70 112 60 110 Q50 112 42 108 Z" fill="#F5F0E8" stroke="#E0D8C8" strokeWidth="0.5" />
-      {/* Wrap fold line */}
-      <path d="M55 110 L50 175" stroke="#E0D8C8" strokeWidth="0.5" />
-      {/* Feet */}
-      <ellipse cx="50" cy="185" rx="8" ry="4" fill="#D4A574" />
-      <ellipse cx="70" cy="185" rx="8" ry="4" fill="#D4A574" />
-      {/* Sandals */}
-      <path d="M42 186 Q50 190 58 186" stroke="#8B6914" strokeWidth="1.5" fill="none" />
-      <path d="M62 186 Q70 190 78 186" stroke="#8B6914" strokeWidth="1.5" fill="none" />
-    </svg>
-  );
-}
-
-function IhramWomanSvg() {
-  return (
-    <svg viewBox="0 0 120 200" className="ihram-svg" aria-label="Femme en Ihram">
-      {/* Head */}
-      <circle cx="60" cy="30" r="16" fill="#D4A574" />
-      {/* Eyes */}
-      <circle cx="54" cy="30" r="1.5" fill="#1a1a1a" />
-      <circle cx="66" cy="30" r="1.5" fill="#1a1a1a" />
-      {/* Khimâr (head covering) */}
-      <path d="M35 20 Q38 10 60 8 Q82 10 85 20 L88 45 Q85 55 78 65 L60 75 L42 65 Q35 55 32 45 Z" fill="#8B8B8B" stroke="#7A7A7A" strokeWidth="0.5" />
-      {/* Face opening */}
-      <ellipse cx="60" cy="30" rx="14" ry="16" fill="#D4A574" />
-      <circle cx="54" cy="30" r="1.5" fill="#1a1a1a" />
-      <circle cx="66" cy="30" r="1.5" fill="#1a1a1a" />
-      {/* Body - loose modest clothing */}
-      <path d="M38 65 L34 170 Q40 178 60 180 Q80 178 86 170 L82 65 Q72 72 60 75 Q48 72 38 65 Z" fill="#D4C5A0" stroke="#C4B590" strokeWidth="0.5" />
-      {/* Sleeves */}
-      <path d="M38 68 L28 90 Q26 95 30 98 L40 85" fill="#D4C5A0" stroke="#C4B590" strokeWidth="0.5" />
-      <path d="M82 68 L92 90 Q94 95 90 98 L80 85" fill="#D4C5A0" stroke="#C4B590" strokeWidth="0.5" />
-      {/* Hands */}
-      <circle cx="30" cy="100" r="4" fill="#D4A574" />
-      <circle cx="90" cy="100" r="4" fill="#D4A574" />
-      {/* Feet */}
-      <ellipse cx="50" cy="183" rx="7" ry="3.5" fill="#D4A574" />
-      <ellipse cx="70" cy="183" rx="7" ry="3.5" fill="#D4A574" />
-      {/* Sandals */}
-      <path d="M43 184 Q50 188 57 184" stroke="#8B6914" strokeWidth="1.5" fill="none" />
-      <path d="M63 184 Q70 188 77 184" stroke="#8B6914" strokeWidth="1.5" fill="none" />
-    </svg>
-  );
-}
-
-function BeforeManSvg() {
-  return (
-    <svg viewBox="0 0 120 200" className="ihram-svg" aria-label="Homme avant Ihram">
-      {/* Head */}
-      <circle cx="60" cy="30" r="18" fill="#D4A574" />
-      <ellipse cx="60" cy="24" rx="16" ry="12" fill="#2C1810" />
-      <path d="M48 35 Q52 42 60 44 Q68 42 72 35" fill="#2C1810" />
-      <circle cx="53" cy="30" r="1.5" fill="#1a1a1a" />
-      <circle cx="67" cy="30" r="1.5" fill="#1a1a1a" />
-      {/* T-shirt */}
-      <path d="M38 50 L82 50 L85 55 L78 55 L78 110 L42 110 L42 55 L35 55 Z" fill="#607D8B" stroke="#546E7A" strokeWidth="0.5" />
-      {/* Sleeves */}
-      <path d="M38 50 L28 65 L35 70 L42 58" fill="#607D8B" stroke="#546E7A" strokeWidth="0.5" />
-      <path d="M82 50 L92 65 L85 70 L78 58" fill="#607D8B" stroke="#546E7A" strokeWidth="0.5" />
-      {/* Pants */}
-      <path d="M42 110 L40 175 L55 175 L58 120 L62 120 L65 175 L80 175 L78 110 Z" fill="#37474F" stroke="#263238" strokeWidth="0.5" />
-      {/* Shoes */}
-      <ellipse cx="48" cy="180" rx="10" ry="5" fill="#3E2723" />
-      <ellipse cx="72" cy="180" rx="10" ry="5" fill="#3E2723" />
-    </svg>
-  );
-}
-
-function BeforeWomanSvg() {
-  return (
-    <svg viewBox="0 0 120 200" className="ihram-svg" aria-label="Femme avant Ihram">
-      {/* Head */}
-      <circle cx="60" cy="30" r="16" fill="#D4A574" />
-      <circle cx="54" cy="30" r="1.5" fill="#1a1a1a" />
-      <circle cx="66" cy="30" r="1.5" fill="#1a1a1a" />
-      {/* Hijab */}
-      <path d="M35 18 Q38 8 60 6 Q82 8 85 18 L88 48 Q85 56 78 62 L60 68 L42 62 Q35 56 32 48 Z" fill="#6D4C7D" stroke="#5D3C6D" strokeWidth="0.5" />
-      <ellipse cx="60" cy="30" rx="14" ry="16" fill="#D4A574" />
-      <circle cx="54" cy="30" r="1.5" fill="#1a1a1a" />
-      <circle cx="66" cy="30" r="1.5" fill="#1a1a1a" />
-      {/* Top */}
-      <path d="M40 62 L36 115 L84 115 L80 62 Q72 68 60 68 Q48 68 40 62 Z" fill="#7B5EA7" stroke="#6D4C97" strokeWidth="0.5" />
-      {/* Skirt */}
-      <path d="M36 115 L32 178 Q45 182 60 182 Q75 182 88 178 L84 115 Z" fill="#37474F" stroke="#263238" strokeWidth="0.5" />
-      {/* Shoes */}
-      <ellipse cx="48" cy="183" rx="8" ry="4" fill="#3E2723" />
-      <ellipse cx="72" cy="183" rx="8" ry="4" fill="#3E2723" />
-    </svg>
-  );
-}
+const basePath = import.meta.env.BASE_URL;
 
 function IhramSection() {
   const { ihram } = content.sacralisation;
@@ -295,20 +184,12 @@ function IhramSection() {
 
         <div className="ihram-visual">
           <div className={`ihram-figure ${showAfter ? 'hidden' : ''}`}>
-            <BeforeManSvg />
-            <span className="ihram-label">Homme — avant</span>
-          </div>
-          <div className={`ihram-figure ${showAfter ? 'hidden' : ''}`}>
-            <BeforeWomanSvg />
-            <span className="ihram-label">Femme — avant</span>
+            <img src={`${basePath}images/avant-ihram-couple.png`} alt="Couple avant l'Ihram" className="ihram-img" />
+            <span className="ihram-label">Avant l'Ihram</span>
           </div>
           <div className={`ihram-figure ${showAfter ? '' : 'hidden'}`}>
-            <IhramManSvg />
-            <span className="ihram-label">Homme — en Ihram</span>
-          </div>
-          <div className={`ihram-figure ${showAfter ? '' : 'hidden'}`}>
-            <IhramWomanSvg />
-            <span className="ihram-label">Femme — en Ihram</span>
+            <img src={`${basePath}images/ihram-couple.png`} alt="Couple en Ihram" className="ihram-img" />
+            <span className="ihram-label">En Ihram</span>
           </div>
         </div>
 
@@ -318,8 +199,15 @@ function IhramSection() {
         </div>
       </div>
 
-      <div className="ihram-video-section">
+      <div className="ihram-howto-section">
         <h4 className="sacra-subtitle-sm">Comment mettre la tenue d'Ihram</h4>
+        <div className="ihram-howto-img-wrapper">
+          <img src={`${basePath}images/comment-ihram.png`} alt="Étapes pour mettre l'Ihram" className="ihram-howto-img" />
+        </div>
+      </div>
+
+      <div className="ihram-video-section">
+        <h4 className="sacra-subtitle-sm">Tutoriel vidéo</h4>
         <p className="sacra-text">Regarde cette vidéo pour apprendre étape par étape comment revêtir l'Ihram correctement :</p>
         <div className="ihram-video-wrapper">
           <iframe
