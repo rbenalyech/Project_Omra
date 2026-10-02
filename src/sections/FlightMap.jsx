@@ -4,11 +4,11 @@ import './FlightMap.css';
 
 const CITIES = [
   { name: 'Bruxelles', code: 'BRU', x: 285, y: 140, labelPos: 'top' },
-  { name: 'Istanbul', code: 'IST', x: 460, y: 180, labelPos: 'top' },
+  { name: 'Athènes', code: 'ATH', x: 430, y: 210, labelPos: 'top' },
   { name: 'Djeddah', code: 'JED', x: 500, y: 310, labelPos: 'right' },
 ];
 
-const FLIGHT_PATH_D = 'M285,140 Q370,130 460,180 Q490,230 500,310';
+const FLIGHT_PATH_D = 'M285,140 Q360,150 430,210 Q475,250 500,310';
 
 export default function FlightMap() {
   const sectionRef = useRef(null);
@@ -191,9 +191,9 @@ export default function FlightMap() {
 
         <div className="flight-info-cards">
           {activeCity === 1 && (
-            <div className="flight-info-card flight-info-card--istanbul">
-              <h4>Escale à Istanbul</h4>
-              <p>Profite du temps d'escale pour te reposer et te préparer mentalement pour la suite du voyage.</p>
+            <div className="flight-info-card flight-info-card--athens">
+              <h4>Escale à Athènes (7h10)</h4>
+              <p>Longue escale — profite pour te reposer, prier et te préparer mentalement. Prépare ta tenue d'Ihram.</p>
             </div>
           )}
           {activeCity === 2 && (
@@ -209,7 +209,25 @@ export default function FlightMap() {
             </div>
           )}
         </div>
+
       </div>
+
+      {content.vol.flightDetails && (
+        <div className="flight-details-card card">
+          <h4 className="flight-details-title">{content.vol.flightDetails.airline}</h4>
+          <p className="flight-details-total">Durée totale : {content.vol.flightDetails.totalDuration} — Classe {content.vol.flightDetails.class}</p>
+          <div className="flight-legs">
+            {content.vol.flightDetails.outbound.map((leg, i) => (
+              <div key={i} className="flight-leg">
+                <span className="flight-leg-badge">Vol {leg.flight}</span>
+                <span className="flight-leg-route">{leg.from} → {leg.to}</span>
+                <span className="flight-leg-times">{leg.departure} → {leg.arrival}</span>
+                <span className="flight-leg-duration">{leg.duration}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </section>
   );
 }

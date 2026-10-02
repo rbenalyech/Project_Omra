@@ -100,6 +100,76 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* Flight details */
+.flight-details-card {
+  margin-top: var(--space-lg);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.flight-details-title {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-xs);
+}
+
+.flight-details-total {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-md);
+}
+
+.flight-legs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.flight-leg {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.flight-leg:last-child {
+  border-bottom: none;
+}
+
+.flight-leg-badge {
+  background: var(--color-primary);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.flight-leg-route {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-primary-dark);
+}
+
+.flight-leg-times {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+}
+
+.flight-leg-duration {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-left: auto;
+}
+
 @media (max-width: 768px) {
   .flight-map {
     min-height: 200vh;

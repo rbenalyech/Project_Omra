@@ -6,6 +6,7 @@
   "hero": {
     "title": "Ta Omra, étape par étape",
     "subtitle": "De Bruxelles à la Kaaba — tout comprendre en 15 minutes",
+    "departure": "Vendredi 30 octobre 2026",
     "cta": "Commencer le voyage",
     "quickMode": "Mode rapide"
   },
@@ -125,12 +126,21 @@
   },
   "vol": {
     "sectionTitle": "Le vol",
-    "sectionSubtitle": "Bruxelles → Istanbul → Djeddah",
+    "sectionSubtitle": "Bruxelles → Athènes → Djeddah",
     "route": [
-      { "city": "Bruxelles", "code": "BRU", "country": "Belgique", "coords": [50.9, 4.48] },
-      { "city": "Istanbul", "code": "IST", "country": "Turquie", "coords": [41.26, 28.74], "note": "Escale — profite pour te reposer et te préparer mentalement." },
-      { "city": "Djeddah", "code": "JED", "country": "Arabie Saoudite", "coords": [21.67, 39.15], "note": "Porte d'entrée des Lieux Saints." }
+      { "city": "Bruxelles", "code": "BRU", "country": "Belgique", "coords": [50.9, 4.48], "time": "11:00", "date": "Vendredi 30 octobre 2026" },
+      { "city": "Athènes", "code": "ATH", "country": "Grèce", "coords": [37.94, 23.94], "note": "Escale de 7h10 — profite pour te reposer et te préparer mentalement.", "time": "15:10 → 22:20", "airline": "Aegean Airlines" },
+      { "city": "Djeddah", "code": "JED", "country": "Arabie Saoudite", "coords": [21.67, 39.15], "note": "Porte d'entrée des Lieux Saints.", "time": "02:50", "date": "Samedi 31 octobre 2026" }
     ],
+    "flightDetails": {
+      "airline": "Aegean Airlines (assuré par Brussels Airlines)",
+      "outbound": [
+        { "flight": "A33000", "from": "BRU", "to": "ATH", "departure": "11:00", "arrival": "15:10", "duration": "3h 10min" },
+        { "flight": "A3950", "from": "ATH", "to": "JED", "departure": "22:20", "arrival": "02:50 (+1j)", "duration": "3h 30min" }
+      ],
+      "totalDuration": "13h 50min",
+      "class": "Économique"
+    },
     "miqatWarning": "Environ 20–30 min avant l'atterrissage à Djeddah, l'avion survole le Miqat. Tu dois être en état d'Ihram ou l'avoir enfilé à ce moment. Prépare-toi à l'avance !"
   },
   "sacralisation": {
