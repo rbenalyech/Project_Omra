@@ -377,10 +377,127 @@
     "completionNote": "La 'Umra est maintenant terminée ! Tu peux retirer l'Ihram et reprendre ta vie normale."
   },
   "medine": {
-    "sectionTitle": "Le séjour à Médine",
+    "sectionTitle": "Le séjour à Madinah",
     "sectionSubtitle": "La ville du Prophète ﷺ",
-    "placeholder": true,
-    "note": "Contenu à compléter avec les photos du chapitre 5 du livre."
+    "placeholder": false,
+    "remarques": {
+      "title": "Remarques importantes",
+      "points": [
+        "On peut visiter la Mosquée du Prophète ﷺ avant ou après le pèlerinage, et même tout au long de l'année. Cette visite ne fait pas partie des rites du Hajj ou de la 'Umra et n'est pas une condition de leur validité.",
+        "On formulera l'intention de visiter la mosquée du Prophète ﷺ et non de visiter sa tombe, car il n'est pas autorisé de voyager dans un but d'adoration que vers les trois mosquées sacrées.",
+        "Contrairement à ce que propagent certaines personnes, il n'y a aucune obligation d'accomplir quarante prières à Madinah.",
+        "Seules les visites des lieux indiqués ici sont autorisées. En dehors de cela, il n'existe aucunes preuves qui invitent à accomplir d'autres actes. Il faut donc s'en abstenir."
+      ],
+      "hadithTroisMosquees": {
+        "text": "« On ne prépare sa monture [pour voyager dans un but d'adoration] que pour se rendre à trois mosquées : la mosquée de La Mecque, ma mosquée [celle du Prophète], et la mosquée Al-Aqsâ. »",
+        "source": "Rapporté par Al-Bukhârî et Muslim"
+      },
+      "hadithRecompense": {
+        "text": "« La prière dans ma mosquée vaut plus que 1 000 prières accomplies ailleurs, exceptée dans la Mosquée sacrée [de La Mecque, où elles valent 100 000 prières]. »",
+        "source": "Rapporté par Al-Bukhârî et Muslim"
+      }
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "L'entrée dans la mosquée",
+        "text": "Arrivé à la mosquée du Prophète ﷺ, on entre par le pied droit et on dit :",
+        "duas": [
+          {
+            "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَسَلِّمْ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+            "phonetic": "Allâhumma salli 'alâ Muhammadin wa sallim, Allâhumma ftah lî abwâba rahmatik.",
+            "translation": "Ô Allah, prie et salue sur Muhammad, ô Allah, ouvre-moi les portes de Ta miséricorde."
+          },
+          {
+            "arabic": "أَعُوذُ بِاللهِ العَظِيمِ وَبِوَجْهِهِ الكَرِيمِ وَسُلْطَانِهِ القَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+            "phonetic": "A'ûdhu bi Llâh il-'Azhîmi, wa bi Wajhih il-karîmi, wa Sultânih il-qadîmi, min ash-shaytân ir-rajîm.",
+            "translation": "Je me mets sous la protection d'Allah le Très-Grand, auprès de Son Visage noble et Sa Souveraineté éternelle, contre Satan le lapidé."
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Dans la mosquée",
+        "text": "On effectue toutes les prières obligatoires et autant de prières surérogatoires que possible à la Mosquée sacrée.",
+        "details": "C'est l'occasion également de s'asseoir, d'écouter, de profiter des cours des savants, et éventuellement de poser des questions. Ne laissez pas passer cela — que ce soit à Madinah ou à Mekkah, ne serait-ce que pour obtenir la bénédiction de ces assemblées où on évoque Allah."
+      },
+      {
+        "number": 3,
+        "title": "Prier dans la Rawdhah",
+        "text": "On effectuera le plus de prières surérogatoires que possible dans la Rawdhah. Elle se situe entre la chaire du Prophète ﷺ et l'appartement dans lequel il a été enterré.",
+        "hadith": "Selon un hadith rapporté par Al-Bukhârî et Muslim, ce lieu est un des jardins du Paradis.",
+        "conseil": "Il faut néanmoins éviter de bousculer les personnes autour de soi et de passer devant les musulmans en prière, pour y arriver."
+      },
+      {
+        "number": 4,
+        "title": "Saluer le Prophète ﷺ et ses Compagnons",
+        "text": "Après avoir prié, on peut se rendre devant la tombe du Prophète ﷺ. On se tient debout face à la tombe, avec retenue.",
+        "salutations": [
+          {
+            "qui": "Le Prophète ﷺ",
+            "arabic": "السَّلَامُ عَلَيْكَ يَا رَسُولَ اللهِ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+            "phonetic": "Assalâmu 'alayka yâ Rasûla Llâhi wa rahmatu Llâhi wa barakâtuhu.",
+            "translation": "Que la paix soit sur toi ô Messager d'Allah, ainsi que la miséricorde d'Allah et Ses bénédictions."
+          },
+          {
+            "qui": "Abû Bakr As-Siddîq",
+            "instruction": "On se décale quelque peu à droite et on salue Abû Bakr.",
+            "arabic": "السَّلَامُ عَلَيْكَ يَا أَبَا بَكْرٍ الصِّدِّيقَ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+            "phonetic": "Assalâmu 'alayka yâ Abâ Bakrini s-Siddîqa wa rahmatu Llâhi wa barakâtuhu.",
+            "translation": "Que la paix soit sur toi, ô Abû Bakr le Véridique, ainsi que la miséricorde d'Allah et Ses bénédictions."
+          },
+          {
+            "qui": "'Umar ibn Al-Khattâb",
+            "instruction": "Puis on se décale encore à droite et on salue 'Umar ibn Al-Khattâb.",
+            "arabic": "السَّلَامُ عَلَيْكَ يَا عُمَرُ ابْنُ الْخَطَّابِ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+            "phonetic": "Assalâmu 'alayka yâ 'Umaru ibnu l-Khattâbi wa rahmatu Llâhi wa barakâtuhu.",
+            "translation": "Que la paix soit sur toi, ô 'Umar ibn Al-Khattâb, ainsi que la miséricorde d'Allah et Ses bénédictions."
+          }
+        ],
+        "attention": [
+          "Il est strictement interdit d'adresser ses demandes au Prophète ﷺ ou ses Compagnons, ou à tout occupant d'une tombe ! L'invocation est une adoration et le Seul à mériter l'adoration est Allah.",
+          "En adressant ses invocations, on se tourne en direction de la Qiblah et non pas vers la tombe du Prophète ﷺ.",
+          "Il n'est pas permis de se frotter contre les murs de l'appartement du Prophète ﷺ ou de tourner autour."
+        ],
+        "remarqueFemme": "Certains savants sont d'avis que la femme n'a pas le droit de visiter la tombe du Prophète ﷺ. Elles se contenteront alors d'invoquer Allah en faveur du Prophète ﷺ là où elles se trouvent. Le lieu appelé « Rawdhah » est néanmoins ouvert aux femmes à certaines heures pour leur permettre d'y prier."
+      },
+      {
+        "number": 5,
+        "title": "Visiter le cimetière Al-Baqî'",
+        "text": "Il est recommandé aux hommes de visiter le cimetière Al-Baqî' al-Gharqad. Le Prophète ﷺ a recommandé de se rendre au cimetière pour se rappeler la mort et l'Au-delà.",
+        "enterres": [
+          "Les filles et les fils du Prophète ﷺ",
+          "Les femmes du Prophète ﷺ",
+          "'Uthmân ibn 'Affân",
+          "'Abdullah ibn Mas'ûd",
+          "'Abdur-Rahmân ibn 'Awf",
+          "Halîmah As-Sa'diyyah",
+          "L'imam Mâlik"
+        ],
+        "dua": {
+          "arabic": "السَّلَامُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللهُ بِكُمْ لَاحِقُونَ. يَرْحَمُ اللهُ الْمُسْتَقْدِمِينَ مِنَّا وَالْمُسْتَأْخِرِينَ. أَسْأَلُ اللهَ لَنَا وَلَكُمْ الْعَافِيَةَ",
+          "phonetic": "Assalâmu 'alaykum ahla d-diyâri min al-mu'minîna wal-muslimîna wa innâ inchâ' Allâhu bikum lâhiqûn. Yarhamu Llâhu l-mustaqdimîna minnâ wal-musta'khirîna. As'alu Llâha lanâ wa lakum al-'âfiyah.",
+          "translation": "Que le salut soit sur vous, habitants de ces demeures, croyants et musulmans. Nous allons, si Allah veut, certainement vous rejoindre. Qu'Allah accorde Sa grâce à ceux qui sont morts avant nous et à ceux qui vont les suivre. Je demande à Allah pour nous et pour vous le salut.",
+          "source": "Rapporté par Muslim et Ibn Mâjah"
+        }
+      },
+      {
+        "number": 6,
+        "title": "Se rendre à Uhud",
+        "text": "Il est recommandé de se rendre à Uhud, surtout si c'est dans le but de commémorer les hauts faits du Prophète ﷺ et de ses Compagnons durant la bataille qui s'est tenue à cet endroit et les épreuves qui les ont frappés.",
+        "details": "On ne manquera pas de saluer ceux parmi les Compagnons qui y sont enterrés, comme Hamzah ibn 'Abd Al-Muttalib, l'oncle paternel du Prophète ﷺ."
+      },
+      {
+        "number": 7,
+        "title": "Visiter la mosquée Qubâ'",
+        "text": "Il est également recommandé de se rendre à la mosquée Qubâ' pour y prier.",
+        "hadith": {
+          "text": "« Celui qui se purifie chez lui, puis se rend à la Mosquée Qubâ' et y prie deux unités de prière, obtient la récompense d'une 'Umra. »",
+          "source": "Rapporté par Ahmad, An-Nassâ'î et d'autres"
+        },
+        "conseil": "Il sera donc attentif à effectuer les ablutions avant de s'y rendre."
+      }
+    ]
   },
   "invocations": {
     "sectionTitle": "Invocations essentielles",
@@ -437,6 +554,25 @@
         "phonetic": "Allâhumma mahillî haythu habastanî.",
         "translation": "Ô Allah, je sortirai de mon état de sacralisation là où Tu m'auras arrêté.",
         "source": "Rapporté par Al-Bukhârî et Muslim"
+      },
+      {
+        "moment": "Protection en entrant à la mosquée",
+        "arabic": "أَعُوذُ بِاللهِ العَظِيمِ وَبِوَجْهِهِ الكَرِيمِ وَسُلْطَانِهِ القَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+        "phonetic": "A'ûdhu bi Llâh il-'Azhîmi, wa bi Wajhih il-karîmi, wa Sultânih il-qadîmi, min ash-shaytân ir-rajîm.",
+        "translation": "Je me mets sous la protection d'Allah le Très-Grand, auprès de Son Visage noble et Sa Souveraineté éternelle, contre Satan le lapidé."
+      },
+      {
+        "moment": "Saluer le Prophète ﷺ à Madinah",
+        "arabic": "السَّلَامُ عَلَيْكَ يَا رَسُولَ اللهِ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+        "phonetic": "Assalâmu 'alayka yâ Rasûla Llâhi wa rahmatu Llâhi wa barakâtuhu.",
+        "translation": "Que la paix soit sur toi ô Messager d'Allah, ainsi que la miséricorde d'Allah et Ses bénédictions."
+      },
+      {
+        "moment": "Au cimetière Al-Baqî'",
+        "arabic": "السَّلَامُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللهُ بِكُمْ لَاحِقُونَ. يَرْحَمُ اللهُ الْمُسْتَقْدِمِينَ مِنَّا وَالْمُسْتَأْخِرِينَ. أَسْأَلُ اللهَ لَنَا وَلَكُمْ الْعَافِيَةَ",
+        "phonetic": "Assalâmu 'alaykum ahla d-diyâri min al-mu'minîna wal-muslimîna wa innâ inchâ' Allâhu bikum lâhiqûn. Yarhamu Llâhu l-mustaqdimîna minnâ wal-musta'khirîna. As'alu Llâha lanâ wa lakum al-'âfiyah.",
+        "translation": "Que le salut soit sur vous, habitants de ces demeures, croyants et musulmans. Nous allons, si Allah veut, certainement vous rejoindre. Qu'Allah accorde Sa grâce à ceux qui sont morts avant nous et à ceux qui vont les suivre. Je demande à Allah pour nous et pour vous le salut.",
+        "source": "Rapporté par Muslim et Ibn Mâjah"
       }
     ]
   },
