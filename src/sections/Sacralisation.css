@@ -689,11 +689,65 @@
   }
 }
 
+@media (max-width: 768px) {
+  .sacra-content {
+    gap: var(--space-2xl);
+  }
+
+  .ihram-visual {
+    min-height: 220px;
+  }
+
+  .ihram-img {
+    max-width: 180px;
+    max-height: 220px;
+  }
+
+  .ihram-video-wrapper {
+    border-radius: var(--radius-md);
+  }
+
+  .ihram-howto-img {
+    max-height: 300px;
+  }
+}
+
 @media (max-width: 480px) {
+  .sacralisation {
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+
   .dua-arabic {
     font-size: 1.1rem;
     padding: var(--space-md);
-    margin: calc(-1 * var(--space-lg));
+    margin: calc(-1 * var(--space-md));
     margin-bottom: var(--space-md);
+  }
+
+  .dua-phonetic {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .dua-phonetic .phonetic-text {
+    font-size: 0.85rem;
+  }
+
+  .dua-translation p {
+    font-size: 0.85rem;
+  }
+
+  .ihram-visual {
+    min-height: 180px;
+  }
+
+  .ihram-img {
+    max-width: 150px;
+    max-height: 180px;
+  }
+
+  .interdit-item {
+    padding: 10px var(--space-sm);
   }
 }

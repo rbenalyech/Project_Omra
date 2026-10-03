@@ -419,8 +419,24 @@
   }
 }
 
+/* Tablet */
+@media (max-width: 768px) {
+  .omra-step-body {
+    padding: var(--space-md);
+  }
+
+  .omra-step-tips {
+    flex-wrap: wrap;
+  }
+}
+
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+  .omra-steps {
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+
   .omra-timeline::before {
     left: 18px;
   }
@@ -436,7 +452,15 @@
   }
 
   .omra-step-body {
-    padding: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  .omra-step-title {
+    font-size: 1.1rem;
+  }
+
+  .omra-text {
+    font-size: 0.85rem;
   }
 
   .tawaf-animation {
@@ -444,14 +468,27 @@
     height: 150px;
   }
 
+  .sai-animation {
+    overflow-x: auto;
+  }
+
   .rasage-details {
     grid-template-columns: 1fr;
   }
 
   .omra-steps .dua-arabic {
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: var(--space-md);
     margin: calc(-1 * var(--space-md));
     margin-bottom: var(--space-md);
+  }
+
+  .omra-steps .dua-phonetic {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .step-detail-card {
+    padding: var(--space-sm);
   }
 }

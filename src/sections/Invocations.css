@@ -155,12 +155,66 @@
   font-style: normal;
 }
 
+/* Tablet */
+@media (max-width: 768px) {
+  .invocation-header {
+    padding: var(--space-md);
+  }
+
+  .invocation-body {
+    padding: 0 var(--space-md) var(--space-md);
+  }
+
+  .invocation-arabic {
+    margin: 0 calc(-1 * var(--space-md));
+    margin-bottom: var(--space-md);
+    padding: var(--space-md);
+    font-size: 1.15rem;
+  }
+
+  .invocation-phonetic p {
+    font-size: 0.9rem;
+  }
+
+  .invocation-translation {
+    font-size: 0.9rem;
+  }
+}
+
 /* Mobile */
 @media (max-width: 480px) {
+  .invocations {
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+
   .invocation-arabic {
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: var(--space-md);
-    margin: 0 calc(-1 * var(--space-lg));
+    margin: 0 calc(-1 * var(--space-md));
     margin-bottom: var(--space-md);
+  }
+
+  .invocation-moment {
+    font-size: 0.85rem;
+  }
+
+  .invocation-phonetic {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .invocation-phonetic p {
+    font-size: 0.85rem;
+  }
+
+  .invocation-translation {
+    font-size: 0.85rem;
+  }
+
+  .invocations-toolbar {
+    flex-direction: column;
+    gap: var(--space-sm);
+    align-items: flex-start;
   }
 }

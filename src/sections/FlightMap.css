@@ -181,17 +181,55 @@
     top: 10px;
   }
 
+  .flight-svg {
+    border-radius: var(--radius-md);
+  }
+
   .flight-info-cards {
     position: relative;
     bottom: auto;
     left: auto;
     right: auto;
     margin-top: var(--space-md);
-    padding: 0 var(--space-sm);
+    padding: 0;
   }
 
   .flight-info-card {
     max-width: 100%;
+    font-size: 0.85rem;
   }
 
+  .flight-info-card h4 {
+    font-size: 0.85rem;
+  }
+
+  .flight-info-card p {
+    font-size: 0.75rem;
+  }
+
+  .flight-details-card {
+    padding: var(--space-md);
+  }
+
+  .flight-leg {
+    flex-direction: column;
+    gap: var(--space-xs);
+    align-items: flex-start;
+  }
+
+  .flight-leg-duration {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .flight-map {
+    min-height: 180vh;
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+
+  .flight-svg {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  }
 }

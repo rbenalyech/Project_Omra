@@ -1,3 +1,95 @@
+/* ===================== Floating Language Icon ===================== */
+.lang-float {
+  position: fixed;
+  top: var(--space-md);
+  left: var(--space-md);
+  z-index: 950;
+}
+
+.lang-float-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-surface);
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: var(--shadow-md);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lang-float-btn:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-lg);
+}
+
+.lang-float-flag {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.lang-float-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(0,0,0,0.06);
+  min-width: 140px;
+  opacity: 0;
+  transform: translateY(-8px) scale(0.95);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  overflow: hidden;
+}
+
+.lang-float-dropdown--open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.lang-float-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 16px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-light);
+  transition: background 0.15s ease;
+}
+
+.lang-float-option:hover {
+  background: var(--color-bg-alt);
+}
+
+.lang-float-option--active {
+  background: var(--color-primary);
+  color: white;
+}
+
+.lang-float-option--active:hover {
+  background: var(--color-primary-dark);
+}
+
+.lang-float-option-flag {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.lang-float-option-label {
+  font-weight: 600;
+}
+
 /* ===================== NAV — Desktop (default) ===================== */
 .nav {
   position: fixed;
@@ -7,7 +99,7 @@
   padding: var(--space-md);
 }
 
-/* Toggle button — stays in place */
+/* Toggle button */
 .nav-toggle {
   position: relative;
   z-index: 920;
@@ -29,7 +121,7 @@
   box-shadow: var(--shadow-md);
 }
 
-/* Hamburger lines → X animation */
+/* Hamburger → X animation */
 .nav-hamburger {
   display: flex;
   flex-direction: column;
@@ -77,11 +169,11 @@
   pointer-events: auto;
 }
 
-/* Panel — slides in from right, stops before dots */
+/* Panel */
 .nav-panel {
   position: absolute;
-  top: calc(44px + var(--space-sm));
-  right: 0;
+  top: calc(44px + var(--space-lg));
+  right: var(--space-xs);
   z-index: 910;
   background: var(--color-surface);
   border-radius: var(--radius-lg);
@@ -160,52 +252,6 @@
   font-size: 0.85rem;
 }
 
-/* Language switcher */
-.nav-lang {
-  display: flex;
-  gap: 4px;
-  padding: var(--space-sm);
-  border-top: 1px solid rgba(0,0,0,0.06);
-  justify-content: center;
-}
-
-.nav-lang-btn {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  padding: 6px 10px;
-  border: 1px solid rgba(0,0,0,0.08);
-  background: transparent;
-  border-radius: var(--radius-sm);
-  cursor: pointer;
-  font-family: var(--font-body);
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--color-text-light);
-  transition: all 0.2s ease;
-}
-
-.nav-lang-btn:hover {
-  background: var(--color-bg-alt);
-  border-color: var(--color-primary-light);
-}
-
-.nav-lang-btn--active {
-  background: var(--color-primary);
-  color: white;
-  border-color: var(--color-primary);
-}
-
-.nav-lang-flag {
-  font-size: 0.9rem;
-  line-height: 1;
-}
-
-.nav-lang-code {
-  font-size: 0.7rem;
-  letter-spacing: 0.5px;
-}
-
 /* Dots — desktop sidebar */
 .nav-dots {
   display: flex;
@@ -214,45 +260,69 @@
   top: 50%;
   transform: translateY(-50%);
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   z-index: 900;
 }
 
 .nav-dot {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   border: 2px solid var(--color-accent);
   background: transparent;
   cursor: pointer;
   padding: 0;
   transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-dot::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
 }
 
 .nav-dot:hover {
   background: var(--color-accent-light);
+  transform: scale(1.2);
 }
 
 .nav-dot--active {
   background: var(--color-accent);
-  transform: scale(1.3);
+  transform: scale(1.4);
+  box-shadow: 0 0 0 3px rgba(200,164,90,0.25);
 }
 
-/* ===================== Tablet (769px - 1024px) ===================== */
+/* ===================== Tablet ===================== */
 @media (max-width: 1024px) and (min-width: 769px) {
   .nav-dots {
     right: 10px;
-    gap: 8px;
+    gap: 10px;
   }
 
   .nav-dot {
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
   }
 }
 
 /* ===================== Mobile (<=768px) ===================== */
 @media (max-width: 768px) {
+  .lang-float {
+    top: var(--space-sm);
+    left: var(--space-sm);
+  }
+
+  .lang-float-btn {
+    width: 38px;
+    height: 38px;
+  }
+
+  .lang-float-flag {
+    font-size: 1.1rem;
+  }
+
   .nav {
     top: auto;
     bottom: 0;
@@ -262,8 +332,6 @@
     background: var(--color-surface);
     border-top: 1px solid rgba(0,0,0,0.08);
     box-shadow: 0 -2px 12px rgba(0,0,0,0.06);
-    display: flex;
-    flex-direction: column;
   }
 
   .nav-toggle {
@@ -275,10 +343,16 @@
   }
 
   .nav-panel {
-    display: contents;
-    pointer-events: auto;
+    position: static;
     opacity: 1;
     transform: none;
+    pointer-events: auto;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    min-width: auto;
+    max-width: none;
+    background: transparent;
   }
 
   .nav-list {
@@ -287,6 +361,7 @@
     overflow-x: auto;
     gap: 0;
     padding: var(--space-xs) var(--space-sm);
+    padding-bottom: max(var(--space-xs), env(safe-area-inset-bottom));
     background: transparent;
     scrollbar-width: none;
   }
@@ -315,29 +390,6 @@
 
   .nav-label {
     font-size: 0.6rem;
-  }
-
-  .nav-lang {
-    display: flex;
-    border-top: none;
-    padding: 4px var(--space-sm);
-    gap: 6px;
-    justify-content: center;
-    order: -1;
-    border-bottom: 1px solid rgba(0,0,0,0.06);
-  }
-
-  .nav-lang-btn {
-    padding: 2px 6px;
-    border: none;
-  }
-
-  .nav-lang-code {
-    display: none;
-  }
-
-  .nav-lang-flag {
-    font-size: 0.85rem;
   }
 
   .nav-dots {

@@ -141,6 +141,11 @@ h1, h2, h3, h4 {
   color: var(--color-primary-dark);
 }
 
+.dua-arabic.arabic-text,
+.invocation-arabic.arabic-text {
+  color: white;
+}
+
 .phonetic-text {
   font-style: italic;
   color: var(--color-text-light);
