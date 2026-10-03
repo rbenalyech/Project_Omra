@@ -5,12 +5,12 @@ import './FlightMap.css';
 const basePath = import.meta.env.BASE_URL;
 
 const CITIES = [
-  { name: 'Bruxelles', code: 'BRU', x: 214, y: 111, labelPos: 'top' },
-  { name: 'Athènes', code: 'ATH', x: 419, y: 239, labelPos: 'top' },
-  { name: 'Djeddah', code: 'JED', x: 584, y: 379, labelPos: 'right' },
+  { name: 'Bruxelles', code: 'BRU', x: 367, y: 131 },
+  { name: 'Athènes', code: 'ATH', x: 530, y: 284 },
+  { name: 'Djeddah', code: 'JED', x: 743, y: 489 },
 ];
 
-const FLIGHT_PATH_D = 'M214,111 Q320,160 419,239 Q505,305 584,379';
+const FLIGHT_PATH_D = 'M367,131 Q450,190 530,284 Q640,380 743,489';
 
 export default function FlightMap() {
   const sectionRef = useRef(null);
@@ -77,43 +77,39 @@ export default function FlightMap() {
       <div className="flight-map-container">
         <div className="flight-map-visual">
         <svg
-          viewBox="0 0 700 450"
+          viewBox="0 0 1024 559"
           className="flight-svg"
           xmlns="http://www.w3.org/2000/svg"
         >
           <defs>
             <clipPath id="mapClip">
-              <rect width="700" height="450" rx="20" />
+              <rect width="1024" height="559" rx="20" />
             </clipPath>
             <filter id="glow">
-              <feGaussianBlur stdDeviation="3" result="blur" />
+              <feGaussianBlur stdDeviation="4" result="blur" />
               <feMerge>
                 <feMergeNode in="blur" />
                 <feMergeNode in="SourceGraphic" />
               </feMerge>
             </filter>
-            <filter id="textShadow">
-              <feDropShadow dx="0" dy="1" stdDeviation="2" floodColor="#000" floodOpacity="0.7" />
-            </filter>
           </defs>
 
           <image
             href={`${basePath}images/map-satellite.webp`}
-            width="700"
-            height="450"
+            width="1024"
+            height="559"
             preserveAspectRatio="xMidYMid slice"
             clipPath="url(#mapClip)"
           />
-
-          <rect width="700" height="450" rx="20" fill="rgba(0,0,0,0.15)" clipPath="url(#mapClip)" />
 
           <path
             ref={pathRef}
             d={FLIGHT_PATH_D}
             fill="none"
-            stroke="rgba(255,255,255,0.25)"
-            strokeWidth="2"
-            strokeDasharray="8 6"
+            stroke="rgba(255,255,255,0.3)"
+            strokeWidth="2.5"
+            strokeDasharray="10 8"
+            clipPath="url(#mapClip)"
           />
 
           <path
@@ -121,70 +117,13 @@ export default function FlightMap() {
             d={FLIGHT_PATH_D}
             fill="none"
             stroke="var(--color-accent)"
-            strokeWidth="3"
+            strokeWidth="4"
             filter="url(#glow)"
+            clipPath="url(#mapClip)"
           />
 
-          {CITIES.map((city, i) => (
-            <g key={city.code}>
-              <circle
-                cx={city.x}
-                cy={city.y}
-                r={activeCity >= i ? 8 : 5}
-                fill={activeCity >= i ? 'var(--color-accent)' : 'rgba(255,255,255,0.5)'}
-                stroke={activeCity >= i ? '#fff' : 'none'}
-                strokeWidth="2"
-                style={{ transition: 'fill 0.3s ease' }}
-              />
-              {activeCity === i && (
-                <circle
-                  cx={city.x}
-                  cy={city.y}
-                  r="16"
-                  fill="none"
-                  stroke="var(--color-accent)"
-                  strokeWidth="1.5"
-                  opacity="0.6"
-                  className="city-pulse"
-                />
-              )}
-              <text
-                x={city.x}
-                y={city.labelPos === 'top' ? city.y - 18 : city.y + 4}
-                dx={city.labelPos === 'right' ? 18 : 0}
-                textAnchor={city.labelPos === 'right' ? 'start' : 'middle'}
-                fill="#fff"
-                fontSize="13"
-                fontWeight="700"
-                fontFamily="var(--font-body)"
-                filter="url(#textShadow)"
-              >
-                {city.code}
-              </text>
-              <text
-                x={city.x}
-                y={city.labelPos === 'top' ? city.y - 32 : city.y + 18}
-                dx={city.labelPos === 'right' ? 18 : 0}
-                textAnchor={city.labelPos === 'right' ? 'start' : 'middle'}
-                fill="rgba(255,255,255,0.85)"
-                fontSize="9"
-                fontFamily="var(--font-body)"
-                filter="url(#textShadow)"
-              >
-                {city.name}
-              </text>
-            </g>
-          ))}
-
-          {showMiqat && (
-            <g className="miqat-marker">
-              <circle cx="565" cy="360" r="20" fill="none" stroke="#FF6B6B" strokeWidth="2" strokeDasharray="4 3" opacity="0.8" />
-              <text x="565" y="364" textAnchor="middle" fill="#FF6B6B" fontSize="8" fontWeight="700" fontFamily="var(--font-body)" filter="url(#textShadow)">MIQAT</text>
-            </g>
-          )}
-
           <g ref={planeRef} className="plane-icon">
-            <g transform="translate(-12,-12) scale(1)">
+            <g transform="translate(-14,-14) scale(1.2)">
               <path
                 d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"
                 fill="#fff"
