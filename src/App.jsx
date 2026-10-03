@@ -1,3 +1,4 @@
+import { LanguageProvider } from './context/LanguageContext';
 import ProgressBar from './components/ProgressBar';
 import Nav from './components/Nav';
 import Hero from './sections/Hero';
@@ -13,7 +14,7 @@ import './styles/global.css';
 
 function App() {
   return (
-    <>
+    <LanguageProvider>
       <a href="#preparatifs" className="skip-link">Aller au contenu</a>
       <ProgressBar />
       <Nav />
@@ -29,7 +30,7 @@ function App() {
         <Invocations />
         <Recap />
       </main>
-    </>
+    </LanguageProvider>
   );
 }
 

@@ -1,10 +1,12 @@
+import { useContext } from 'react';
 import { useInView } from '../hooks/useInView';
-import content from '../content/fr.json';
+import { LanguageContext } from '../context/LanguageContext';
 import './Recap.css';
 
 const STEP_EMOJIS = ['🕊️', '🕋', '🤲', '💧', '🚶', '✂️'];
 
 export default function Recap() {
+  const { content } = useContext(LanguageContext);
   const [ref, inView] = useInView({ threshold: 0.1 });
 
   return (

@@ -1,7 +1,9 @@
-import content from '../content/fr.json';
+import { useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 import './Hero.css';
 
 export default function Hero() {
+  const { content } = useContext(LanguageContext);
   const { hero } = content;
 
   const scrollToStart = () => {

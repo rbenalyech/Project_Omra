@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "lang": "nl",
+    "direction": "ltr"
+  },
+  "hero": {
+    "title": "Jouw Omra, stap voor stap",
+    "subtitle": "Van Brussel naar de Kaaba — alles begrijpen in 15 minuten",
+    "departure": "Vrijdag 30 oktober 2026",
+    "cta": "Begin de reis",
+    "quickMode": "Snelle modus"
+  },
+  "nav": {
+    "sections": [
+      { "id": "hero", "label": "Startpagina", "icon": "🏠" },
+      { "id": "preparatifs", "label": "Voorbereiding", "icon": "🧳" },
+      { "id": "aeroport", "label": "Luchthaven", "icon": "✈️" },
+      { "id": "vol", "label": "De vlucht", "icon": "🗺️" },
+      { "id": "sacralisation", "label": "Ihram", "icon": "🕊️" },
+      { "id": "omra", "label": "De Omra", "icon": "🕋" },
+      { "id": "medine", "label": "Medina", "icon": "🌙" },
+      { "id": "invocations", "label": "Smeekbeden", "icon": "📖" },
+      { "id": "recap", "label": "Overzicht", "icon": "✅" }
+    ]
+  },
+  "preparatifs": {
+    "sectionTitle": "De voorbereidingen",
+    "sectionSubtitle": "Voordat je je koffer inpakt",
+    "intention": {
+      "title": "De intentie",
+      "text": "Je reis moet uitsluitend gewijd zijn aan de tevredenheid van Allah. Zorg er ook voor dat je deze financiert met halal verdiend geld."
+    },
+    "patience": {
+      "title": "Het geduld",
+      "text": "Miljoenen pelgrims, tientallen nationaliteiten. Vier gouden regels:",
+      "rules": [
+        { "word": "Glimlachen", "detail": "Goed voor lichaam en hart, het stelt de mensen om je heen op hun gemak." },
+        { "word": "Respecteren", "detail": "Luister naar de instructies en respecteer de regels. Ze gelden voor iedereen." },
+        { "word": "Helpen", "detail": "Help je broeders en zusters in Allah. De sterkere helpt de zwakkere." },
+        { "word": "Geduld hebben", "detail": "Geduld, geduld en nog eens geduld! De beloning is enorm voor degenen die volharden." }
+      ]
+    },
+    "budget": {
+      "title": "Het budget",
+      "text": "Het benodigde bedrag is hoog. Plan en spaar. Het geld moet op een halal manier verdiend zijn.",
+      "tip": "Als je schulden hebt, wordt aangeraden deze eerst af te lossen voor je vertrekt. Uitzondering: als de Hajj geen vertraging in de terugbetaling veroorzaakt, of als de schuldeiser toestemming geeft voor het vertrek.",
+      "exchange": "100 € ≈ 400 SAR (1 SAR ≈ 0,25 €)",
+      "dailyBudget": "Reken op ongeveer 100 SAR / dag / persoon voor persoonlijke uitgaven.",
+      "prices": [
+        { "item": "Platbrood", "price": "1 SAR" },
+        { "item": "Sneetjesbrood", "price": "7 SAR" },
+        { "item": "Sap 20 cl", "price": "1 SAR" },
+        { "item": "Fles water 33 cl", "price": "1–2 SAR" },
+        { "item": "Zamzam-water", "price": "Gratis (moskeeën)" },
+        { "item": "Frisdrank 30 cl", "price": "3–4 SAR" },
+        { "item": "Espresso / koffie", "price": "10 SAR of meer" },
+        { "item": "Maaltijd rijst-kip", "price": "20–35 SAR" },
+        { "item": "Fastfoodmaaltijd", "price": "20–35 SAR" },
+        { "item": "Taxi 4-5 km", "price": "vanaf 10 SAR" }
+      ]
+    },
+    "checklist": {
+      "title": "Administratieve checklist",
+      "items": [
+        { "text": "Verlof aanvragen", "icon": "calendar" },
+        { "text": "Paspoort geldig tot 6 maanden na terugkeer", "icon": "passport" },
+        { "text": "Bewijs van verblijf (buitenlanders in België)", "icon": "document" },
+        { "text": "Verplichte vaccinaties", "icon": "syringe" },
+        { "text": "Visum (indien nodig)", "icon": "stamp" }
+      ]
+    },
+    "physique": {
+      "title": "Fysieke voorbereiding",
+      "items": [
+        { "icon": "walking", "text": "Loop 5 tot 7 km, minstens 4 tot 5 keer in de weken voor vertrek" },
+        { "icon": "shoe", "text": "Koop goede stevige en comfortabele sandalen" },
+        { "icon": "sun", "text": "Intense zon: drink voortdurend water, vermijd overmatige cafeïne" },
+        { "icon": "food", "text": "Voorzichtige voedselkeuzes: let op maagklachten" },
+        { "icon": "mask", "text": "Stof en uitlaatgassen: draag een masker of sjaal om je neusgaten te beschermen" }
+      ]
+    },
+    "valise": {
+      "title": "Je koffer",
+      "subtitle": "Elk item is belangrijk en noodzakelijk!",
+      "items": [
+        { "name": "Ihram-kleding", "category": "essentiel", "icon": "ihram" },
+        { "name": "Paspoort + documenten", "category": "essentiel", "icon": "passport" },
+        { "name": "Opvouwbaar gebedskleed", "category": "essentiel", "icon": "prayermat" },
+        { "name": "Stevige sandalen", "category": "essentiel", "icon": "sandals" },
+        { "name": "Rugzak (klein)", "category": "essentiel", "icon": "backpack" },
+        { "name": "Geldgordel", "category": "essentiel", "icon": "belt" },
+        { "name": "Zonnebril", "category": "confort", "icon": "sunglasses" },
+        { "name": "Telefoon + oplader", "category": "confort", "icon": "phone" },
+        { "name": "Powerbank", "category": "confort", "icon": "battery" },
+        { "name": "Stekkeradapter (type UK)", "category": "confort", "icon": "adapter" },
+        { "name": "Paracetamol + EHBO", "category": "santé", "icon": "medkit" },
+        { "name": "Vaseline zonder parfum", "category": "santé", "icon": "cream" },
+        { "name": "Pleisters + verbandmiddelen", "category": "santé", "icon": "bandage" },
+        { "name": "Tandenborstel + hygiëne", "category": "santé", "icon": "toothbrush" },
+        { "name": "Kleine zaklamp", "category": "confort", "icon": "flashlight" },
+        { "name": "Gedroogd fruit en repen", "category": "confort", "icon": "snacks" },
+        { "name": "E-reader / luisterboeken", "category": "confort", "icon": "book" },
+        { "name": "Grote zachte tas (terugkeer)", "category": "confort", "icon": "bag" }
+      ]
+    },
+    "apprendre": {
+      "title": "Jezelf informeren voor vertrek",
+      "text": "Het is een plicht voor de pelgrim om de rituelen van zijn godsdienst te leren. Lees, bekijk video's, leer de smeekbeden, controleer je manier van bidden.",
+      "rewardMecca": "Het gebed in de Heilige Moskee van Mekka = 100.000 gebeden",
+      "rewardMedina": "Het gebed in de Moskee van Medina = 1.000 gebeden",
+      "goldenRule": "Houd je aan de regels beschreven in de Koran en de Soennah, en houd je verre van alle vormen van innovaties!",
+      "hadith": "« Neem een voorbeeld aan mij voor het uitvoeren van jullie rituelen. »",
+      "hadithSource": "Rapporté par Muslim"
+    }
+  },
+  "aeroport": {
+    "sectionTitle": "Richting de luchthaven",
+    "sectionSubtitle": "Brussel-Zaventem (BRU)",
+    "steps": [
+      { "title": "Inchecken", "text": "Kom 3 uur voor de vlucht aan. Heb je paspoort en boekingsbevestiging klaar.", "icon": "checkin" },
+      { "title": "Beveiliging", "text": "Vloeistoffen < 100 ml in een doorzichtig zakje. Doe riem en schoenen uit.", "icon": "security" },
+      { "title": "Instappen", "text": "Ga naar de gate 45 minuten voor vertrek.", "icon": "gate" },
+      { "title": "Opstijgen", "text": "Smeekbede voor de reis: Bismillah, tawakkaltu 'ala Allah.", "icon": "takeoff" }
+    ],
+    "importantNote": "De verblijfsduur wordt berekend vanaf het tijdstip van opstijgen (bij vertrek) tot het tijdstip van landing (bij terugkeer). Een aangebroken dag telt als een volledige dag!"
+  },
+  "vol": {
+    "sectionTitle": "De vlucht",
+    "sectionSubtitle": "Brussel → Athene → Jeddah",
+    "route": [
+      { "city": "Brussel", "code": "BRU", "country": "België", "coords": [50.9, 4.48], "time": "11:00", "date": "Vrijdag 30 oktober 2026" },
+      { "city": "Athene", "code": "ATH", "country": "Griekenland", "coords": [37.94, 23.94], "note": "Tussenstop van 7u10 — gebruik de tijd om te rusten en je mentaal voor te bereiden.", "time": "15:10 → 22:20", "airline": "Aegean Airlines" },
+      { "city": "Jeddah", "code": "JED", "country": "Saoedi-Arabië", "coords": [21.67, 39.15], "note": "Toegangspoort tot de Heilige Plaatsen.", "time": "02:50", "date": "Zaterdag 31 oktober 2026" }
+    ],
+    "flightDetails": {
+      "airline": "Aegean Airlines (uitgevoerd door Brussels Airlines)",
+      "outbound": [
+        { "flight": "A33000", "from": "BRU", "to": "ATH", "departure": "11:00", "arrival": "15:10", "duration": "3h 10min" },
+        { "flight": "A3950", "from": "ATH", "to": "JED", "departure": "22:20", "arrival": "02:50 (+1j)", "duration": "3h 30min" }
+      ],
+      "totalDuration": "13h 50min",
+      "class": "Economy"
+    },
+    "miqatWarning": "Ongeveer 20–30 min voor de landing in Jeddah vliegt het vliegtuig over de Miqat. Je moet op dat moment in staat van Ihram zijn of deze aangetrokken hebben. Bereid je op tijd voor!"
+  },
+  "sacralisation": {
+    "sectionTitle": "De sacralisatie",
+    "sectionSubtitle": "Het intreden in de staat van Ihram",
+    "miqat": {
+      "title": "De 5 Miqat (plaatsen van sacralisatie)",
+      "description": "Iedereen die langs een plaats van sacralisatie (Miqat) komt, of zich op dezelfde hoogte bevindt, om de bedevaart (Hajj) of het vrome bezoek ('Umra) te verrichten, moet zich daar in staat van sacralisatie (Ihram) begeven.",
+      "points": [
+        { "name": "Dhul-Hulayfah", "aka": "Abar Ali", "distance": "427 km van Mekka", "note": "Bij het verlaten van Madinah" },
+        { "name": "Al-Juhfah", "aka": "", "distance": "204 km van Mekka", "note": "Nabij Rabigh" },
+        { "name": "Yalamlam", "aka": "As-Sa'diyah", "distance": "94 km van Mekka", "note": "" },
+        { "name": "Qarn al-Manâzil", "aka": "Al-Seyl al-Kabîr", "distance": "94 km van Mekka", "note": "Nabij Ta'if" },
+        { "name": "Dhât 'Irq", "aka": "", "distance": "98 km van Mekka", "note": "" }
+      ],
+      "europeNote": "De meeste pelgrims uit Europa sacriliseren zich: ofwel in het vliegtuig, ongeveer 20 tot 30 minuten voor de landing op de luchthaven van Jeddah, als ze rechtstreeks naar Mekka gaan; ofwel bij Dhul-Hulayfah, als ze eerst Madinah hebben bezocht voordat ze naar Mekka gaan.",
+      "warning": "Wie deze punten passeert zonder zich te sacraliseren, moet ernaar terugkeren om dit alsnog te doen. Als hij dit niet doet, moet hij een offerdier slachten en het vlees verdelen onder de armen van het heilige gebied (al-Haram)."
+    },
+    "preparation": {
+      "title": "De voorbereiding",
+      "intro": "Het is aanbevolen zich voor te bereiden door een ritueel bad te nemen en de sacralisatiekleding (al-Ihram) aan te trekken. De pelgrim kan zijn sacralisatiekleding aantrekken voordat hij de Miqat bereikt, en hij kan dit zelfs thuis doen. Echter, hij zal de intentie om in staat van sacralisatie te treden pas kort voor de Miqat formuleren.",
+      "homme": {
+        "title": "Het is aanbevolen (Soennah) voor de man",
+        "steps": [
+          "Een ritueel bad nemen (Ghusl)",
+          "Nagels knippen, oksels en schaamstreek scheren, snor bijknippen",
+          "Het lichaam, het hoofd en de baard parfumeren — maar niet de kleding parfumeren",
+          "De sacralisatiekleding aantrekken: de lendendoek (Izâr) om de taille en het bovendoek (Ridâ') dat beide schouders bedekt"
+        ],
+        "warning": "Het is verplicht om beide schouders te bedekken. Men ontbloot de rechterschouder alleen tijdens de eerste Tawâf van de 'Umra."
+      },
+      "femme": {
+        "title": "Wat betreft de vrouw",
+        "steps": [
+          "Het rituele bad nemen en zich wassen, zelfs als zij menstrueert of in het kraambed is",
+          "Haar gebruikelijke kleding dragen zolang deze het lichaam bedekt en geen versieringen bevat",
+          "Geen gezichtssluier dragen die vastgemaakt wordt op het gezicht (niqâb) noch handschoenen",
+          "Zij mag een sluier dragen die op het hoofd rust (khimâr) en die over het gezicht omlaag kan in aanwezigheid van niet-verwante mannen"
+        ],
+        "note": "Er is geen voorkeur voor een bepaalde kleur van haar kleding, maar zij dient wit te vermijden om niet op mannen te lijken."
+      }
+    },
+    "entree": {
+      "title": "Het intreden in de staat van sacralisatie",
+      "text": "De Ihram is het formuleren van de intentie om de rituelen van de Hajj of de 'Umra te beginnen. Als het tijd is voor het gebed, is het aanbevolen om eerst te bidden en dan in de staat van sacralisatie te treden.",
+      "declaration": {
+        "arabic": "لَبَّيْكَ اللَّهُمَّ بِعُمْرَةٍ",
+        "phonetic": "Labbayk Allahumma bi-'Umra.",
+        "translation": "Ik beantwoord Uw oproep, o Allah, met een 'Umra."
+      }
+    },
+    "condition": {
+      "title": "De voorwaardelijke formule",
+      "text": "De pelgrim kan de voorwaardelijke formule uitspreken vlak voor het uitspreken van de Talbiyah, als hij vreest dat iets de voltooiing van zijn 'Umra zou kunnen belemmeren, zoals ziekte of gevaar:",
+      "arabic": "اللَّهُمَّ مَحِلِّي حَيْثُ حَبَسْتَنِي",
+      "phonetic": "Allâhumma mahillî haythu habastanî.",
+      "translation": "O Allah, ik zal uit mijn staat van sacralisatie treden daar waar U mij tegenhoudt.",
+      "source": "Rapporté par Al-Bukhârî et Muslim",
+      "effect": "Als de pelgrim deze voorwaarde heeft uitgesproken en iets hem belet zijn rituelen te voltooien of als hij ziek wordt, heeft hij het recht om uit de staat van sacralisatie te treden zonder een offerdier te hoeven slachten of een vervangende Hajj te hoeven verrichten."
+    },
+    "ihram": {
+      "title": "De Ihram",
+      "descriptionHomme": "Twee stukken witte ongestikte stof: de lendendoek (Izâr) om de taille en het bovendoek (Ridâ') op beide schouders.",
+      "descriptionFemme": "Gebruikelijke kleding die het lichaam bedekt, zonder versieringen. Geen niqâb noch handschoenen in staat van sacralisatie.",
+      "interditsCommuns": {
+        "title": "Verboden voor zowel man als vrouw",
+        "items": [
+          { "text": "Het hoofd scheren, haar knippen, nagels of huid knippen", "icon": "scissors" },
+          { "text": "Zich parfumeren, ongeacht het type parfum", "icon": "perfume" },
+          { "text": "Trouwen of een huwelijksaanzoek doen", "icon": "heart" },
+          { "text": "Huwelijksgemeenschap en de voorspelen ervan", "icon": "forbidden" },
+          { "text": "Wild jagen of deelnemen aan de jacht", "icon": "hunt" }
+        ]
+      },
+      "interditsHomme": {
+        "title": "Alleen verboden voor mannen",
+        "items": [
+          { "text": "Kleding dragen die de lichaamsvorm volgt (overhemd, broek, sokken...)", "icon": "shirt" },
+          { "text": "Het hoofd bedekken met iets dat direct contact maakt (tulband, masker...)", "icon": "hat" }
+        ],
+        "autorise": "Daarentegen is het toegestaan om een parasol te gebruiken, spullen op het hoofd te dragen, of een riem, horloge en zonnebril te dragen."
+      },
+      "interditsFemme": {
+        "title": "Alleen verboden voor vrouwen",
+        "items": [
+          { "text": "Handschoenen dragen", "icon": "gloves" },
+          { "text": "Het gezicht bedekken met een burqa, niqâb of gezichtssluier die vastgemaakt wordt", "icon": "veil" }
+        ]
+      },
+      "oubli": "Wie de verboden overtreedt uit vergetelheid, onwetendheid of dwang, hoeft geen compensatie te geven."
+    },
+    "talbiyah": {
+      "title": "De Talbiyah",
+      "intro": "Het is aanbevolen (Soennah) voor de man om zijn stem te verheffen bij het uitspreken van de Talbiyah-formule en deze vaak te herhalen. Wat betreft de vrouw, het is aanbevolen dat zij de Talbiyah uitspreekt zonder haar stem te verheffen.",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+      "phonetic": "Labbayk Allahumma labbayk, labbayka lâ sharîka laka labbayk, inna-l-hamda wan-ni'mata Laka wal-mulk, lâ sharîka lak.",
+      "translation": "Hier ben ik, o Allah, hier ben ik. Hier ben ik, U hebt geen deelgenoot, hier ben ik. Voorwaar, de lof, de genade en de heerschappij behoren U toe. U hebt geen deelgenoot.",
+      "instruction": "De pelgrim spreekt de Talbiyah uit vanaf het moment dat hij in de staat van sacralisatie treedt totdat hij begint met de rondgangen om de Ka'bah."
+    },
+    "tableau": {
+      "title": "Zuilen, verplichtingen en Soennah-handelingen van de 'Umra",
+      "piliers": {
+        "title": "De Zuilen",
+        "consequence": "Het nalaten van een zuil maakt de 'Umra ongeldig.",
+        "items": [
+          "In de staat van sacralisatie treden (Ihram), wat de intentie is om de rituelen te beginnen",
+          "De zeven rondgangen om de Ka'bah (Tawâf)",
+          "De heen-en-weer-gangen tussen de heuvels Safâ en Marwah (Sa'i)"
+        ]
+      },
+      "obligations": {
+        "title": "De Verplichtingen",
+        "consequence": "Het nalaten van een verplichting moet worden gecompenseerd door een offer dat in Mekka wordt gebracht en verdeeld.",
+        "items": [
+          "In de staat van sacralisatie treden bij de Miqât",
+          "Het hoofd scheren of het haar knippen"
+        ]
+      },
+      "sunan": {
+        "title": "De Soennah-handelingen",
+        "consequence": "Wie elke door de Soennah bevestigde handeling verricht, krijgt daarvoor de beloning; als hij deze nalaat, treft hem geen verwijt.",
+        "items": [
+          "Zamzam-water drinken en over het hoofd gieten",
+          "De Zwarte Steen aanraken",
+          "Alle andere Soennah-handelingen die in de stappen vermeld staan"
+        ]
+      }
+    }
+  },
+  "omra": {
+    "sectionTitle": "De stappen van de 'Umra",
+    "sectionSubtitle": "In de Heilige Moskee van Mekka",
+    "arriveeMekkah": {
+      "title": "Aankomst in Mekka",
+      "text": "Als het mogelijk is, wast men zich bij het betreden van Mekka, en betreedt men het overdag.",
+      "mosqueeEntry": {
+        "instruction": "Vergeet niet om eerst met de rechtervoet naar binnen te gaan en te zeggen:",
+        "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَسَلِّمْ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+        "phonetic": "Allâhumma salli 'alâ Muhammadin wa sallim, Allâhumma ftah lî abwâba rahmatik.",
+        "translation": "O Allah, zegen en groet Muhammad, o Allah, open voor mij de deuren van Uw barmhartigheid."
+      },
+      "voirKaaba": {
+        "instruction": "Wanneer de pelgrim de Ka'bah voor het eerst ziet, kan hij zijn handen opheffen en smeken:",
+        "arabic": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ فَحَيِّنَا رَبَّنَا بِالسَّلَامِ",
+        "phonetic": "Allâhumma Antas-salâmu, wa Minkas-salâmu fa hayyinâ Rabbanâ bis-salâm.",
+        "translation": "O Allah, U bent de Vrede, van U komt de Vrede, houd ons in leven, o Heer, in Vrede."
+      }
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "De Tawaf",
+        "subtitle": "7 rondgangen om de Kaaba",
+        "description": "De pelgrim begint zijn rondgangen met de Ka'bah aan zijn linkerzijde, startend bij de Zwarte Steen.",
+        "pierreNoire": {
+          "instruction": "Aan het begin van elke rondgang, bij de Zwarte Steen, zegt men:",
+          "arabic": "بِسْمِ اللهِ. اللهُ أَكْبَرُ",
+          "phonetic": "Bismi Llâhi. Allâhu Akbar !",
+          "translation": "In de naam van Allah. Allah is de Grootste!"
+        },
+        "idhtiba": "Het behoort tot de Soennah om de rechterschouder te ontbloten (Idhtibâ') door het midden van de Ridâ' onder de rechteroksel te halen en het uiteinde over de linkerschouder te slaan — tijdens de zeven rondgangen van de Tawâf.",
+        "raml": "Tijdens de eerste drie rondgangen is het Soennah om te draven (Raml): kleine snelle passen nemen. De vrouw loopt normaal tijdens de zeven rondgangen.",
+        "coinYemenite": {
+          "instruction": "Bij de Jemenitische hoek raakt men deze aan zonder hem te kussen. Tussen de Jemenitische hoek en de Zwarte Steen reciteert men:",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "phonetic": "Rabbanâ âtinâ fid-dunyâ hasanatan wa fil-âkhirati hasanatan wa qinâ 'adhâban nâr.",
+          "translation": "O Allah, schenk ons het goede in dit leven, evenals het goede in het Hiernamaals, en bescherm ons tegen de bestraffing van het Vuur.",
+          "source": "Al-Baqarah, v. 201"
+        },
+        "pendantTours": "Men voltooit zeven rondgangen om de Ka'bah terwijl men naar keuze smeekbeden of passages uit de Koran reciteert, zonder de stem te verheffen.",
+        "tips": ["Richting: tegen de klok in (Ka'bah aan je linkerhand)", "Start: Zwarte Steen", "7 volledige rondgangen", "Draven tijdens de eerste 3 rondgangen (man)"],
+        "icon": "tawaf"
+      },
+      {
+        "number": 2,
+        "title": "Gebed bij Maqâm Ibrâhîm",
+        "subtitle": "2 rak'ah na de Tawaf",
+        "description": "Men gaat naar de standplaats van Abraham (Maqâm Ibrâhîm) nadat men beide schouders weer bedekt heeft.",
+        "verset": {
+          "arabic": "وَاتَّخِذُوا مِنْ مَقَامِ إِبْرَاهِيمَ مُصَلًّى",
+          "phonetic": "Wat-takhidhû mim maqâmi Ibrâhîma musallâ.",
+          "translation": "Neem de standplaats van Abraham als gebedsplaats.",
+          "source": "Al-Baqarah, v. 125"
+        },
+        "details": "Vervolgens verricht men twee gebedseenheden, indien mogelijk achter de standplaats van Abraham. Anders bidt men op elke andere plek in de Heilige Moskee.",
+        "tips": ["2 rak'ah achter de Maqâm indien mogelijk", "1e rak'ah: Al-Fâtihah + Al-Kâfirûn", "2e rak'ah: Al-Fâtihah + Al-Ikhlâs", "Beide schouders bedekken"],
+        "icon": "prayer"
+      },
+      {
+        "number": 3,
+        "title": "Het Zamzam-water",
+        "subtitle": "Het gezegende water drinken",
+        "description": "Na het gebed gaat de pelgrim Zamzam-water drinken en kan hij het over zijn hoofd gieten.",
+        "hadiths": [
+          "« Het Zamzam-water is een middel voor de verhoring van de intentie waarvoor men het drinkt. »",
+          "« Het is gezegend, het voedt als voedsel en geneest de zieke. »"
+        ],
+        "suite": "Vervolgens keert hij terug naar de Zwarte Steen, zegt « Allâhu Akbar » en raakt hem aan of strekt zijn hand in die richting.",
+        "tips": ["Gratis in de moskee", "Smeek Allah bij het drinken", "Men kan het over het hoofd gieten"],
+        "icon": "water"
+      },
+      {
+        "number": 4,
+        "title": "De Sa'i",
+        "subtitle": "7 trajecten tussen Safâ en Marwah",
+        "description": "De pelgrim begeeft zich naar de plaats waar de heen-en-weer-gangen worden verricht (Mas'â).",
+        "montSafa": {
+          "instruction": "Bij het beklimmen van de heuvel Safâ, alleen de eerste keer, zegt men:",
+          "arabic": "إِنَّ الصَّفَا وَالمَرْوَةَ مِنْ شَعَائِرِ اللهِ",
+          "phonetic": "Inn as-Safâ wal-Marwata min sha'â'iri Llâhi...",
+          "translation": "Voorwaar, Safâ en Marwah behoren tot de heilige rituelen van Allah...",
+          "source": "Al-Baqarah, v. 158",
+          "ajout": "Men voegt toe: « Abda'u bimâ bada'a Allahu bihi » — Ik begin met wat Allah als eerste heeft genoemd."
+        },
+        "surSafa": {
+          "instruction": "Op de heuvel Safâ keert men zich naar de Ka'bah en zegt:",
+          "arabic": "اللهُ أَكْبَرُ اللهُ أَكْبَرُ اللهُ أَكْبَرُ لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الحَمْدُ يُحْيِي وَيُمِيتُ وَ هُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+          "phonetic": "Allâhu Akbaru, Allâhu Akbaru, Allâhu Akbar. Lâ Ilâha illa Llâhu Wahdahu lâ sharîka Lahu, Lah ul-mulku wa Lah ul-hamdu, yuhyî wa yumîtu, wa Huwa 'alâ kulli shay'in qadîr...",
+          "translation": "Allah is de Grootste (x3). Er is geen god dan Allah, de Enige, zonder deelgenoot. Aan Hem behoort de heerschappij en de lof. Hij geeft het leven en laat sterven, en Hij is tot alles in staat...",
+          "note": "Men doet smeekbeden met opgeheven handen, met het gezicht naar de Ka'bah. Men herhaalt dit drie keer."
+        },
+        "versMarwah": "Men daalt af van Safâ naar Marwah. Bij het bereiken van de groene markering rent de man tussen deze en de volgende markering. De vrouw loopt gewoon door.",
+        "pendantTrajet": {
+          "arabic": "رَبِّ اغْفِرْ وَ ارْحَمْ، إِنَّكَ أَنْتَ الأَعَزُّ الأَكْرَمُ",
+          "phonetic": "Rabbi ghfir wa rham, Innaka Anta al-A'azz ul-Akram.",
+          "translation": "Heer, vergeef ons en wees ons genadig, want U bent de Machtigste, de Edelste."
+        },
+        "comptage": "Safâ → Marwah = 1 traject. Marwah → Safâ = 1 traject. Bij het 7e traject bevindt men zich dus bij Marwah.",
+        "tips": ["Start bij Safâ", "Man rent tussen de groene markeringen", "Vrouw loopt normaal", "Aankomst bij Marwah bij het 7e traject", "Smeekbeden bij elke heuvel"],
+        "icon": "sai"
+      },
+      {
+        "number": 5,
+        "title": "Het scheren / inkorten",
+        "subtitle": "Halq of Taqsir",
+        "description": "Na de heen-en-weer-gangen tussen Safâ en Marwah (Sa'y) moet de man zijn hoofd scheren of zijn haar knippen.",
+        "homme": "De man scheert zijn hoofd (Halq, aanbevolen) of knipt zijn haar (Taqsir). Het scheren of knippen moet over het gehele hoofd gebeuren. Het is niet toegestaan een deel te scheren en een ander deel te laten.",
+        "femme": "De vrouw verzamelt haar haar en knipt de uiteinden ter lengte van een vingerkootje.",
+        "fin": "Zo treden de pelgrims uit hun staat van sacralisatie en zijn zij weer bevoegd om alles te doen wat zij mochten doen voordat zij in de staat van sacralisatie traden.",
+        "tips": ["Halq (volledig scheren) = voorkeur voor de man", "Taqsir = enkele cm knippen over het gehele hoofd", "Vrouw: klein plukje (lengte van een vingerkootje)", "Niet een deel scheren en het andere laten"],
+        "icon": "razor"
+      }
+    ],
+    "completionNote": "De 'Umra is nu voltooid! Je kunt de Ihram uittrekken en je normale leven hervatten."
+  },
+  "medine": {
+    "sectionTitle": "Het verblijf in Madinah",
+    "sectionSubtitle": "De stad van de Profeet ﷺ",
+    "remarques": {
+      "title": "Belangrijke opmerkingen",
+      "points": [
+        "Men kan de Moskee van de Profeet ﷺ bezoeken voor of na de bedevaart, en zelfs het hele jaar door. Dit bezoek maakt geen deel uit van de rituelen van de Hajj of de 'Umra en is geen voorwaarde voor hun geldigheid.",
+        "Men formuleert de intentie om de moskee van de Profeet ﷺ te bezoeken en niet om zijn graf te bezoeken, want het is niet toegestaan te reizen met het doel van aanbidding behalve naar de drie heilige moskeeën.",
+        "In tegenstelling tot wat sommige mensen beweren, bestaat er geen verplichting om veertig gebeden in Madinah te verrichten.",
+        "Alleen de bezoeken aan de hier aangegeven plaatsen zijn toegestaan. Daarbuiten bestaan er geen bewijzen die uitnodigen tot het verrichten van andere handelingen. Men dient zich hiervan te onthouden."
+      ],
+      "hadithTroisMosquees": {
+        "text": "« Men zadelt zijn rijdier alleen [om te reizen met het doel van aanbidding] om zich naar drie moskeeën te begeven: de moskee van Mekka, mijn moskee [die van de Profeet], en de Al-Aqsa-moskee. »",
+        "source": "Rapporté par Al-Bukhârî et Muslim"
+      },
+      "hadithRecompense": {
+        "text": "« Het gebed in mijn moskee is meer waard dan 1.000 gebeden elders verricht, behalve in de Heilige Moskee [van Mekka, waar ze 100.000 gebeden waard zijn]. »",
+        "source": "Rapporté par Al-Bukhârî et Muslim"
+      }
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Het betreden van de moskee",
+        "text": "Bij aankomst in de moskee van de Profeet ﷺ betreedt men deze met de rechtervoet en zegt men:",
+        "duas": [
+          {
+            "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَسَلِّمْ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+            "phonetic": "Allâhumma salli 'alâ Muhammadin wa sallim, Allâhumma ftah lî abwâba rahmatik.",
+            "translation": "O Allah, zegen en groet Muhammad, o Allah, open voor mij de deuren van Uw barmhartigheid."
+          },
+          {
+            "arabic": "أَعُوذُ بِاللهِ العَظِيمِ وَبِوَجْهِهِ الكَرِيمِ وَسُلْطَانِهِ القَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+            "phonetic": "A'ûdhu bi Llâh il-'Azhîmi, wa bi Wajhih il-karîmi, wa Sultânih il-qadîmi, min ash-shaytân ir-rajîm.",
+            "translation": "Ik zoek bescherming bij Allah de Almachtige, bij Zijn nobele Aangezicht en Zijn eeuwige Heerschappij, tegen de verworpen Satan."
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "In de moskee",
+        "text": "Men verricht alle verplichte gebeden en zoveel mogelijk vrijwillige gebeden in de Heilige Moskee.",
+        "details": "Dit is ook het moment om te zitten, te luisteren, te profiteren van de lessen van de geleerden, en eventueel vragen te stellen. Laat dit niet voorbijgaan — of het nu in Madinah of in Mekka is, al was het maar voor de zegen van deze bijeenkomsten waar Allah wordt herdacht."
+      },
+      {
+        "number": 3,
+        "title": "Bidden in de Rawdhah",
+        "text": "Men verricht zoveel mogelijk vrijwillige gebeden in de Rawdhah. Deze bevindt zich tussen de preekstoel van de Profeet ﷺ en het vertrek waarin hij begraven is.",
+        "hadith": "Volgens een hadith overgeleverd door Al-Bukhârî en Muslim is deze plek een van de tuinen van het Paradijs.",
+        "conseil": "Men dient er echter voor te waken anderen niet te duwen en niet voor biddende moslims langs te lopen om er te komen."
+      },
+      {
+        "number": 4,
+        "title": "De Profeet ﷺ en zijn Metgezellen groeten",
+        "text": "Na het gebed kan men zich naar het graf van de Profeet ﷺ begeven. Men staat rechtop voor het graf, met ingetogenheid.",
+        "salutations": [
+          {
+            "qui": "De Profeet ﷺ",
+            "arabic": "السَّلَامُ عَلَيْكَ يَا رَسُولَ اللهِ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+            "phonetic": "Assalâmu 'alayka yâ Rasûla Llâhi wa rahmatu Llâhi wa barakâtuhu.",
+            "translation": "Vrede zij met u, o Boodschapper van Allah, evenals de barmhartigheid van Allah en Zijn zegeningen."
+          },
+          {
+            "qui": "Abû Bakr As-Siddîq",
+            "instruction": "Men verschuift iets naar rechts en groet Abû Bakr.",
+            "arabic": "السَّلَامُ عَلَيْكَ يَا أَبَا بَكْرٍ الصِّدِّيقَ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+            "phonetic": "Assalâmu 'alayka yâ Abâ Bakrini s-Siddîqa wa rahmatu Llâhi wa barakâtuhu.",
+            "translation": "Vrede zij met u, o Abû Bakr de Oprechte, evenals de barmhartigheid van Allah en Zijn zegeningen."
+          },
+          {
+            "qui": "'Umar ibn Al-Khattâb",
+            "instruction": "Vervolgens verschuift men nog verder naar rechts en groet 'Umar ibn Al-Khattâb.",
+            "arabic": "السَّلَامُ عَلَيْكَ يَا عُمَرُ ابْنُ الْخَطَّابِ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+            "phonetic": "Assalâmu 'alayka yâ 'Umaru ibnu l-Khattâbi wa rahmatu Llâhi wa barakâtuhu.",
+            "translation": "Vrede zij met u, o 'Umar ibn Al-Khattâb, evenals de barmhartigheid van Allah en Zijn zegeningen."
+          }
+        ],
+        "attention": [
+          "Het is strikt verboden om verzoeken te richten aan de Profeet ﷺ of zijn Metgezellen, of aan welke grafbewoner dan ook! De smeekbede is een daad van aanbidding en de Enige die aanbidding verdient is Allah.",
+          "Bij het doen van smeekbeden keert men zich in de richting van de Qiblah en niet naar het graf van de Profeet ﷺ.",
+          "Het is niet toegestaan om zich tegen de muren van het vertrek van de Profeet ﷺ te wrijven of eromheen te lopen."
+        ],
+        "remarqueFemme": "Sommige geleerden zijn van mening dat de vrouw het graf van de Profeet ﷺ niet mag bezoeken. Zij beperken zich dan tot het aanroepen van Allah ten gunste van de Profeet ﷺ waar zij zich bevinden. De plaats genaamd « Rawdhah » is echter op bepaalde uren geopend voor vrouwen zodat zij er kunnen bidden."
+      },
+      {
+        "number": 5,
+        "title": "De begraafplaats Al-Baqî' bezoeken",
+        "text": "Het is aanbevolen voor mannen om de begraafplaats Al-Baqî' al-Gharqad te bezoeken. De Profeet ﷺ heeft aanbevolen om de begraafplaats te bezoeken om zich de dood en het Hiernamaals te herinneren.",
+        "enterres": [
+          "De dochters en zonen van de Profeet ﷺ",
+          "De vrouwen van de Profeet ﷺ",
+          "'Uthmân ibn 'Affân",
+          "'Abdullah ibn Mas'ûd",
+          "'Abdur-Rahmân ibn 'Awf",
+          "Halîmah As-Sa'diyyah",
+          "Imam Mâlik"
+        ],
+        "dua": {
+          "arabic": "السَّلَامُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللهُ بِكُمْ لَاحِقُونَ. يَرْحَمُ اللهُ الْمُسْتَقْدِمِينَ مِنَّا وَالْمُسْتَأْخِرِينَ. أَسْأَلُ اللهَ لَنَا وَلَكُمْ الْعَافِيَةَ",
+          "phonetic": "Assalâmu 'alaykum ahla d-diyâri min al-mu'minîna wal-muslimîna wa innâ inchâ' Allâhu bikum lâhiqûn. Yarhamu Llâhu l-mustaqdimîna minnâ wal-musta'khirîna. As'alu Llâha lanâ wa lakum al-'âfiyah.",
+          "translation": "Vrede zij met u, bewoners van deze verblijfplaatsen, gelovigen en moslims. Wij zullen, als Allah het wil, jullie zeker volgen. Moge Allah Zijn genade schenken aan degenen die voor ons zijn gestorven en aan degenen die hen zullen volgen. Ik vraag Allah voor ons en voor jullie het welzijn.",
+          "source": "Rapporté par Muslim et Ibn Mâjah"
+        }
+      },
+      {
+        "number": 6,
+        "title": "Naar Uhud gaan",
+        "text": "Het is aanbevolen om naar Uhud te gaan, vooral als het doel is de grote daden van de Profeet ﷺ en zijn Metgezellen te herdenken tijdens de slag die daar plaatsvond en de beproevingen die hen troffen.",
+        "details": "Men zal niet nalaten degenen te groeten van de Metgezellen die daar begraven liggen, zoals Hamzah ibn 'Abd Al-Muttalib, de oom van vaderszijde van de Profeet ﷺ."
+      },
+      {
+        "number": 7,
+        "title": "De moskee Qubâ' bezoeken",
+        "text": "Het is ook aanbevolen om naar de moskee Qubâ' te gaan om er te bidden.",
+        "hadith": {
+          "text": "« Wie zich thuis reinigt en vervolgens naar de Qubâ'-moskee gaat en er twee gebedseenheden verricht, krijgt de beloning van een 'Umra. »",
+          "source": "Rapporté par Ahmad, An-Nassâ'î et d'autres"
+        },
+        "conseil": "Hij dient er dus op te letten de wassing te verrichten voordat hij er naartoe gaat."
+      }
+    ]
+  },
+  "invocations": {
+    "sectionTitle": "Essentiële smeekbeden",
+    "sectionSubtitle": "De smeekbeden van de pelgrim",
+    "list": [
+      {
+        "moment": "Bij het betreden van de moskee",
+        "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَسَلِّمْ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+        "phonetic": "Allâhumma salli 'alâ Muhammadin wa sallim, Allâhumma ftah lî abwâba rahmatik.",
+        "translation": "O Allah, zegen en groet Muhammad, o Allah, open voor mij de deuren van Uw barmhartigheid."
+      },
+      {
+        "moment": "Bij het zien van de Ka'bah",
+        "arabic": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ فَحَيِّنَا رَبَّنَا بِالسَّلَامِ",
+        "phonetic": "Allâhumma Antas-salâmu, wa Minkas-salâmu fa hayyinâ Rabbanâ bis-salâm.",
+        "translation": "O Allah, U bent de Vrede, van U komt de Vrede, houd ons in leven, o Heer, in Vrede."
+      },
+      {
+        "moment": "Bij de Zwarte Steen",
+        "arabic": "بِسْمِ اللهِ. اللهُ أَكْبَرُ",
+        "phonetic": "Bismi Llâhi. Allâhu Akbar !",
+        "translation": "In de naam van Allah. Allah is de Grootste!"
+      },
+      {
+        "moment": "Tussen de Jemenitische hoek en de Zwarte Steen",
+        "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+        "phonetic": "Rabbanâ âtinâ fid-dunyâ hasanatan wa fil-âkhirati hasanatan wa qinâ 'adhâban nâr.",
+        "translation": "O Allah, schenk ons het goede in dit leven en in het Hiernamaals, en bescherm ons tegen de bestraffing van het Vuur.",
+        "source": "Al-Baqarah, v. 201"
+      },
+      {
+        "moment": "De Talbiyah",
+        "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+        "phonetic": "Labbayk Allahumma labbayk, labbayka lâ sharîka laka labbayk, inna-l-hamda wan-ni'mata Laka wal-mulk, lâ sharîka lak.",
+        "translation": "Hier ben ik, o Allah, hier ben ik. Hier ben ik, U hebt geen deelgenoot, hier ben ik. De lof, de genade en de heerschappij behoren U toe. U hebt geen deelgenoot."
+      },
+      {
+        "moment": "Bij het beklimmen van Safâ (1e keer)",
+        "arabic": "إِنَّ الصَّفَا وَالمَرْوَةَ مِنْ شَعَائِرِ اللهِ",
+        "phonetic": "Inn as-Safâ wal-Marwata min sha'â'iri Llâhi...",
+        "translation": "Voorwaar, Safâ en Marwah behoren tot de heilige rituelen van Allah...",
+        "source": "Al-Baqarah, v. 158"
+      },
+      {
+        "moment": "Tijdens de Sa'i",
+        "arabic": "رَبِّ اغْفِرْ وَ ارْحَمْ، إِنَّكَ أَنْتَ الأَعَزُّ الأَكْرَمُ",
+        "phonetic": "Rabbi ghfir wa rham, Innaka Anta al-A'azz ul-Akram.",
+        "translation": "Heer, vergeef ons en wees ons genadig, want U bent de Machtigste, de Edelste."
+      },
+      {
+        "moment": "Voorwaardelijke formule (optioneel)",
+        "arabic": "اللَّهُمَّ مَحِلِّي حَيْثُ حَبَسْتَنِي",
+        "phonetic": "Allâhumma mahillî haythu habastanî.",
+        "translation": "O Allah, ik zal uit mijn staat van sacralisatie treden daar waar U mij tegenhoudt.",
+        "source": "Rapporté par Al-Bukhârî et Muslim"
+      },
+      {
+        "moment": "Bescherming bij het betreden van de moskee",
+        "arabic": "أَعُوذُ بِاللهِ العَظِيمِ وَبِوَجْهِهِ الكَرِيمِ وَسُلْطَانِهِ القَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+        "phonetic": "A'ûdhu bi Llâh il-'Azhîmi, wa bi Wajhih il-karîmi, wa Sultânih il-qadîmi, min ash-shaytân ir-rajîm.",
+        "translation": "Ik zoek bescherming bij Allah de Almachtige, bij Zijn nobele Aangezicht en Zijn eeuwige Heerschappij, tegen de verworpen Satan."
+      },
+      {
+        "moment": "De Profeet ﷺ groeten in Madinah",
+        "arabic": "السَّلَامُ عَلَيْكَ يَا رَسُولَ اللهِ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+        "phonetic": "Assalâmu 'alayka yâ Rasûla Llâhi wa rahmatu Llâhi wa barakâtuhu.",
+        "translation": "Vrede zij met u, o Boodschapper van Allah, evenals de barmhartigheid van Allah en Zijn zegeningen."
+      },
+      {
+        "moment": "Op de begraafplaats Al-Baqî'",
+        "arabic": "السَّلَامُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللهُ بِكُمْ لَاحِقُونَ. يَرْحَمُ اللهُ الْمُسْتَقْدِمِينَ مِنَّا وَالْمُسْتَأْخِرِينَ. أَسْأَلُ اللهَ لَنَا وَلَكُمْ الْعَافِيَةَ",
+        "phonetic": "Assalâmu 'alaykum ahla d-diyâri min al-mu'minîna wal-muslimîna wa innâ inchâ' Allâhu bikum lâhiqûn. Yarhamu Llâhu l-mustaqdimîna minnâ wal-musta'khirîna. As'alu Llâha lanâ wa lakum al-'âfiyah.",
+        "translation": "Vrede zij met u, bewoners van deze verblijfplaatsen, gelovigen en moslims. Wij zullen, als Allah het wil, jullie zeker volgen. Moge Allah Zijn genade schenken aan degenen die voor ons zijn gestorven en aan degenen die hen zullen volgen. Ik vraag Allah voor ons en voor jullie het welzijn.",
+        "source": "Rapporté par Muslim et Ibn Mâjah"
+      }
+    ]
+  },
+  "recap": {
+    "sectionTitle": "Overzicht",
+    "sectionSubtitle": "De hele 'Umra in een oogopslag",
+    "steps": [
+      "Ihram + Talbiyah",
+      "Tawaf (7 rondgangen)",
+      "Gebed bij de Maqâm",
+      "Zamzam-water",
+      "Sa'i (7 trajecten)",
+      "Scheren / Taqsir"
+    ]
+  }
+}

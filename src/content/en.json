@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "lang": "en",
+    "direction": "ltr"
+  },
+  "hero": {
+    "title": "Your Umra, step by step",
+    "subtitle": "From Brussels to the Kaaba — understand everything in 15 minutes",
+    "departure": "Friday, October 30, 2026",
+    "cta": "Start the journey",
+    "quickMode": "Quick mode"
+  },
+  "nav": {
+    "sections": [
+      { "id": "hero", "label": "Home", "icon": "🏠" },
+      { "id": "preparatifs", "label": "Preparations", "icon": "🧳" },
+      { "id": "aeroport", "label": "Airport", "icon": "✈️" },
+      { "id": "vol", "label": "The Flight", "icon": "🗺️" },
+      { "id": "sacralisation", "label": "Ihram", "icon": "🕊️" },
+      { "id": "omra", "label": "The Umra", "icon": "🕋" },
+      { "id": "medine", "label": "Medina", "icon": "🌙" },
+      { "id": "invocations", "label": "Invocations", "icon": "📖" },
+      { "id": "recap", "label": "Summary", "icon": "✅" }
+    ]
+  },
+  "preparatifs": {
+    "sectionTitle": "Preparations",
+    "sectionSubtitle": "Before packing your suitcase",
+    "intention": {
+      "title": "The intention",
+      "text": "Your journey must be dedicated solely to the satisfaction of Allah. Also make sure to fund it with lawful (halal) money."
+    },
+    "patience": {
+      "title": "Patience",
+      "text": "Millions of pilgrims, dozens of nationalities. Four golden rules:",
+      "rules": [
+        { "word": "Smile", "detail": "Good for the body and the heart, it puts people around you at ease." },
+        { "word": "Respect", "detail": "Follow the instructions and respect the rules. They are the same for everyone." },
+        { "word": "Help", "detail": "Assist your brothers and sisters in Allah. The stronger helps the weaker." },
+        { "word": "Be patient", "detail": "Be patient, patient and patient again! The reward is immense for those who endure." }
+      ]
+    },
+    "budget": {
+      "title": "The budget",
+      "text": "The required sum is significant. Plan ahead and save. The money must be earned in a lawful (halal) way.",
+      "tip": "If you have debts, it is advised to settle them before departing. Exception: if the Hajj will not cause any delay in repayment, or if the creditor authorizes the departure.",
+      "exchange": "100 € ≈ 400 SAR (1 SAR ≈ 0.25 €)",
+      "dailyBudget": "Plan for about 100 SAR / day / person for personal expenses.",
+      "prices": [
+        { "item": "Flatbread", "price": "1 SAR" },
+        { "item": "Sliced bread", "price": "7 SAR" },
+        { "item": "Juice 20 cl", "price": "1 SAR" },
+        { "item": "Water bottle 33 cl", "price": "1–2 SAR" },
+        { "item": "Zamzam water", "price": "Free (mosques)" },
+        { "item": "Soft drink 30 cl", "price": "3–4 SAR" },
+        { "item": "Espresso / coffee", "price": "10 SAR or more" },
+        { "item": "Rice-chicken meal", "price": "20–35 SAR" },
+        { "item": "Fast-food meal", "price": "20–35 SAR" },
+        { "item": "Taxi 4-5 km", "price": "from 10 SAR" }
+      ]
+    },
+    "checklist": {
+      "title": "Administrative checklist",
+      "items": [
+        { "text": "Request time off work", "icon": "calendar" },
+        { "text": "Passport valid 6 months after return", "icon": "passport" },
+        { "text": "Proof of residence (foreigners in Belgium)", "icon": "document" },
+        { "text": "Mandatory vaccinations", "icon": "syringe" },
+        { "text": "Visa (if required)", "icon": "stamp" }
+      ]
+    },
+    "physique": {
+      "title": "Physical preparation",
+      "items": [
+        { "icon": "walking", "text": "Walk 5 to 7 km, at least 4 to 5 times in the weeks before departure" },
+        { "icon": "shoe", "text": "Buy good, sturdy and comfortable sandals" },
+        { "icon": "sun", "text": "Intense sun: stay hydrated at all times, avoid excessive caffeine" },
+        { "icon": "food", "text": "Careful food choices: watch out for digestive issues" },
+        { "icon": "mask", "text": "Dust and fumes: wear a mask or scarf to protect your nostrils" }
+      ]
+    },
+    "valise": {
+      "title": "Your suitcase",
+      "subtitle": "Every item is important and necessary!",
+      "items": [
+        { "name": "Ihram garment", "category": "essentiel", "icon": "ihram" },
+        { "name": "Passport + documents", "category": "essentiel", "icon": "passport" },
+        { "name": "Foldable prayer mat", "category": "essentiel", "icon": "prayermat" },
+        { "name": "Sturdy sandals", "category": "essentiel", "icon": "sandals" },
+        { "name": "Backpack (small)", "category": "essentiel", "icon": "backpack" },
+        { "name": "Money belt", "category": "essentiel", "icon": "belt" },
+        { "name": "Sunglasses", "category": "confort", "icon": "sunglasses" },
+        { "name": "Phone + charger", "category": "confort", "icon": "phone" },
+        { "name": "Power bank", "category": "confort", "icon": "battery" },
+        { "name": "Plug adapter (UK type)", "category": "confort", "icon": "adapter" },
+        { "name": "Paracetamol + first-aid kit", "category": "santé", "icon": "medkit" },
+        { "name": "Unscented petroleum jelly", "category": "santé", "icon": "cream" },
+        { "name": "Adhesive bandages + plasters", "category": "santé", "icon": "bandage" },
+        { "name": "Toothbrush + hygiene kit", "category": "santé", "icon": "toothbrush" },
+        { "name": "Small flashlight", "category": "confort", "icon": "flashlight" },
+        { "name": "Dried fruits and bars", "category": "confort", "icon": "snacks" },
+        { "name": "E-reader / audiobooks", "category": "confort", "icon": "book" },
+        { "name": "Large soft bag (return trip)", "category": "confort", "icon": "bag" }
+      ]
+    },
+    "apprendre": {
+      "title": "Learn before you leave",
+      "text": "It is a duty for the pilgrim to learn the rites of their religion. Read, watch videos, learn the invocations, and verify the way you pray.",
+      "rewardMecca": "Prayer at the Sacred Mosque of Mecca = 100,000 prayers",
+      "rewardMedina": "Prayer at the Mosque of Medina = 1,000 prayers",
+      "goldenRule": "Follow the rules described in the Quran and the Sunnah, and stay away from all forms of innovations!",
+      "hadith": "\"Take your rites from me.\"",
+      "hadithSource": "Rapporté par Muslim"
+    }
+  },
+  "aeroport": {
+    "sectionTitle": "Heading to the airport",
+    "sectionSubtitle": "Brussels-Zaventem (BRU)",
+    "steps": [
+      { "title": "Check-in", "text": "Arrive 3 hours before the flight. Have your passport and booking confirmation ready.", "icon": "checkin" },
+      { "title": "Security", "text": "Liquids < 100 ml in a transparent bag. Remove belt and shoes.", "icon": "security" },
+      { "title": "Boarding", "text": "Head to the boarding gate 45 minutes before departure.", "icon": "gate" },
+      { "title": "Takeoff", "text": "Travel invocation: Bismillah, tawakkaltu 'ala Allah.", "icon": "takeoff" }
+    ],
+    "importantNote": "The length of stay is calculated from the takeoff time (on departure) to the landing time (on return). A day that has started counts as a full day!"
+  },
+  "vol": {
+    "sectionTitle": "The Flight",
+    "sectionSubtitle": "Brussels → Athens → Jeddah",
+    "route": [
+      { "city": "Brussels", "code": "BRU", "country": "Belgium", "coords": [50.9, 4.48], "time": "11:00", "date": "Friday, October 30, 2026" },
+      { "city": "Athens", "code": "ATH", "country": "Greece", "coords": [37.94, 23.94], "note": "7h10 layover — take the opportunity to rest and mentally prepare.", "time": "15:10 → 22:20", "airline": "Aegean Airlines" },
+      { "city": "Jeddah", "code": "JED", "country": "Saudi Arabia", "coords": [21.67, 39.15], "note": "Gateway to the Holy Sites.", "time": "02:50", "date": "Saturday, October 31, 2026" }
+    ],
+    "flightDetails": {
+      "airline": "Aegean Airlines (operated by Brussels Airlines)",
+      "outbound": [
+        { "flight": "A33000", "from": "BRU", "to": "ATH", "departure": "11:00", "arrival": "15:10", "duration": "3h 10min" },
+        { "flight": "A3950", "from": "ATH", "to": "JED", "departure": "22:20", "arrival": "02:50 (+1d)", "duration": "3h 30min" }
+      ],
+      "totalDuration": "13h 50min",
+      "class": "Economy"
+    },
+    "miqatWarning": "About 20–30 minutes before landing in Jeddah, the plane flies over the Miqat. You must be in a state of Ihram or have put it on by that point. Prepare in advance!"
+  },
+  "sacralisation": {
+    "sectionTitle": "The sacralisation",
+    "sectionSubtitle": "Entering the state of Ihram",
+    "miqat": {
+      "title": "The 5 Miqat (places of sacralisation)",
+      "description": "Any person passing through a place of sacralisation (Miqat), or at its level, to perform the pilgrimage (Hajj) or the lesser pilgrimage ('Umra), must enter the state of sacralisation (Ihram) there.",
+      "points": [
+        { "name": "Dhul-Hulayfah", "aka": "Abar Ali", "distance": "427 km from Mecca", "note": "At the exit of Madinah" },
+        { "name": "Al-Juhfah", "aka": "", "distance": "204 km from Mecca", "note": "Near Rabigh" },
+        { "name": "Yalamlam", "aka": "As-Sa'diyah", "distance": "94 km from Mecca", "note": "" },
+        { "name": "Qarn al-Manazil", "aka": "Al-Seyl al-Kabir", "distance": "94 km from Mecca", "note": "Near Ta'if" },
+        { "name": "Dhat 'Irq", "aka": "", "distance": "98 km from Mecca", "note": "" }
+      ],
+      "europeNote": "Most pilgrims coming from Europe enter the state of sacralisation: either on the plane, about 20 to 30 minutes before landing at Jeddah airport, if they are heading directly to Mecca; or at Dhul-Hulayfah, if they visited Madinah before heading to Mecca.",
+      "warning": "Whoever passes these points without entering the state of sacralisation must return to do so. If they do not, they must sacrifice an animal and distribute the meat to the poor within the sacred precinct (al-Haram)."
+    },
+    "preparation": {
+      "title": "The preparation",
+      "intro": "It is recommended to prepare by performing a ritual bath and putting on the sacralisation garment (al-Ihram). The pilgrim may put on the sacralisation garment before reaching the Miqat, and may even do so at home. However, they will only formulate the intention to enter the state of sacralisation shortly before the Miqat.",
+      "homme": {
+        "title": "It is recommended (Sunnah) for men",
+        "steps": [
+          "Perform a ritual bath (Ghusl)",
+          "Trim the nails, shave the armpits and pubic area, trim the moustache",
+          "Apply perfume to the body, head, and beard — but do not perfume the garments",
+          "Put on the sacralisation garment: the lower wrap (Izar) around the waist and the upper piece (Rida') covering both shoulders"
+        ],
+        "warning": "It is obligatory to cover both shoulders. The right shoulder is only uncovered during the first Tawaf of the 'Umra."
+      },
+      "femme": {
+        "title": "As for women",
+        "steps": [
+          "Perform the ritual bath and wash, even if she is menstruating or experiencing postpartum bleeding",
+          "Wear her regular clothing as long as it covers her body and has no embellishments",
+          "Not wear a face veil that ties over the face (niqab) nor gloves",
+          "She may wear a headscarf (khimar) draped over her head that falls over her face in the presence of unrelated men"
+        ],
+        "note": "There is no preferred color for her attire, but she should avoid white so as not to resemble men."
+      }
+    },
+    "entree": {
+      "title": "Entering the state of sacralisation",
+      "text": "Ihram is the act of formulating the intention to begin the rites of Hajj or 'Umra. If the time for prayer arrives, it is recommended to pray first, then enter the state of sacralisation.",
+      "declaration": {
+        "arabic": "لَبَّيْكَ اللَّهُمَّ بِعُمْرَةٍ",
+        "phonetic": "Labbayk Allahumma bi-'Umra.",
+        "translation": "Here I am, O Allah, for an 'Umra."
+      }
+    },
+    "condition": {
+      "title": "The conditional formula",
+      "text": "The pilgrim may state the conditional formula just before pronouncing the Talbiyah, if they fear that something may prevent the completion of their 'Umra, such as illness or danger:",
+      "arabic": "اللَّهُمَّ مَحِلِّي حَيْثُ حَبَسْتَنِي",
+      "phonetic": "Allâhumma mahillî haythu habastanî.",
+      "translation": "O Allah, I will exit my state of sacralisation wherever You have stopped me.",
+      "source": "Rapporté par Al-Bukhârî et Muslim",
+      "effect": "If the pilgrim has stated this condition and something prevents them from completing their rites or they fall ill, they have the right to exit the state of sacralisation without having to sacrifice an animal or perform a compensatory Hajj."
+    },
+    "ihram": {
+      "title": "The Ihram",
+      "descriptionHomme": "Two pieces of unstitched white cloth: the lower wrap (Izar) around the waist and the upper piece (Rida') over both shoulders.",
+      "descriptionFemme": "Regular clothing covering the body, without embellishments. No niqab or gloves in the state of sacralisation.",
+      "interditsCommuns": {
+        "title": "Prohibited for both men and women",
+        "items": [
+          { "text": "Shaving the head, cutting hair, nails, or skin", "icon": "scissors" },
+          { "text": "Applying perfume of any kind", "icon": "perfume" },
+          { "text": "Getting married or proposing marriage", "icon": "heart" },
+          { "text": "Marital relations and their preliminaries", "icon": "forbidden" },
+          { "text": "Hunting game or participating in hunting", "icon": "hunt" }
+        ]
+      },
+      "interditsHomme": {
+        "title": "Prohibited for men only",
+        "items": [
+          { "text": "Wearing clothes that follow the shape of the body (shirt, trousers, socks...)", "icon": "shirt" },
+          { "text": "Covering the head with something in direct contact (turban, mask...)", "icon": "hat" }
+        ],
+        "autorise": "However, it is permitted to use a parasol, carry belongings on one's head, or wear a belt, a watch, and sunglasses."
+      },
+      "interditsFemme": {
+        "title": "Prohibited for women only",
+        "items": [
+          { "text": "Wearing gloves", "icon": "gloves" },
+          { "text": "Covering the face with a burqa, niqab, or veil that ties over the face", "icon": "veil" }
+        ]
+      },
+      "oubli": "As for anyone who violates the prohibitions out of forgetfulness, ignorance, or compulsion, they do not have to compensate."
+    },
+    "talbiyah": {
+      "title": "The Talbiyah",
+      "intro": "It is recommended (Sunnah) for men to raise their voice when pronouncing the Talbiyah formula and to repeat it often. As for women, it is recommended that they pronounce the Talbiyah without raising their voice.",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+      "phonetic": "Labbayk Allahumma labbayk, labbayka lâ sharîka laka labbayk, inna-l-hamda wan-ni'mata Laka wal-mulk, lâ sharîka lak.",
+      "translation": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Indeed, all praise, grace, and sovereignty belong to You. You have no partner.",
+      "instruction": "The pilgrim pronounces the Talbiyah from the moment they enter the state of sacralisation until they begin the circuits around the Ka'bah."
+    },
+    "tableau": {
+      "title": "Pillars, obligations, and Sunan of the 'Umra",
+      "piliers": {
+        "title": "The Pillars",
+        "consequence": "Failure to fulfill a pillar renders the 'Umra invalid.",
+        "items": [
+          "Entering the state of sacralisation (Ihram), which is the intention to begin the rites",
+          "The seven circuits around the Ka'bah (Tawaf)",
+          "The back-and-forth walks between mounts Safa and Marwah (Sa'i)"
+        ]
+      },
+      "obligations": {
+        "title": "The Obligations",
+        "consequence": "Failure to fulfill an obligation must be compensated by a sacrifice made and distributed in Mecca.",
+        "items": [
+          "Entering the state of sacralisation at the Miqat",
+          "Shaving the head or cutting the hair"
+        ]
+      },
+      "sunan": {
+        "title": "The Sunan",
+        "consequence": "Whoever performs any act confirmed by the Sunnah receives its reward; if they omit it, they incur no blame.",
+        "items": [
+          "Drinking Zamzam water and pouring it over one's head",
+          "Touching the Black Stone",
+          "All other Sunan mentioned in the steps"
+        ]
+      }
+    }
+  },
+  "omra": {
+    "sectionTitle": "The steps of the 'Umra",
+    "sectionSubtitle": "At the Sacred Mosque of Mecca",
+    "arriveeMekkah": {
+      "title": "Arrival in Mecca",
+      "text": "If possible, one washes upon entering Mecca, and enters during daylight.",
+      "mosqueeEntry": {
+        "instruction": "Remember to enter with the right foot first and say:",
+        "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَسَلِّمْ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+        "phonetic": "Allâhumma salli 'alâ Muhammadin wa sallim, Allâhumma ftah lî abwâba rahmatik.",
+        "translation": "O Allah, send blessings and peace upon Muhammad. O Allah, open for me the gates of Your mercy."
+      },
+      "voirKaaba": {
+        "instruction": "When the pilgrim sees the Ka'bah for the first time, they may raise their hands and supplicate:",
+        "arabic": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ فَحَيِّنَا رَبَّنَا بِالسَّلَامِ",
+        "phonetic": "Allâhumma Antas-salâmu, wa Minkas-salâmu fa hayyinâ Rabbanâ bis-salâm.",
+        "translation": "O Allah, You are Peace, from You comes Peace, keep us, O Lord, in Peace."
+      }
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "The Tawaf",
+        "subtitle": "7 circuits around the Kaaba",
+        "description": "The pilgrim begins the circuits by placing the Ka'bah to their left, starting from the Black Stone.",
+        "pierreNoire": {
+          "instruction": "At the beginning of each circuit, at the Black Stone, one says:",
+          "arabic": "بِسْمِ اللهِ. اللهُ أَكْبَرُ",
+          "phonetic": "Bismi Llâhi. Allâhu Akbar!",
+          "translation": "In the name of Allah. Allah is the Greatest!"
+        },
+        "idhtiba": "It is part of the Sunnah to uncover the right shoulder (Idhtiba') by passing the middle of the Rida' under the right armpit and folding the end over the left shoulder — during the seven circuits of the Tawaf.",
+        "raml": "In the first three circuits, it is Sunnah to jog (Raml): taking small, quick, and close steps. Women walk normally during all seven circuits.",
+        "coinYemenite": {
+          "instruction": "At the Yemeni Corner, one touches it without kissing it. Between the Yemeni Corner and the Black Stone, one recites:",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "phonetic": "Rabbanâ âtinâ fid-dunyâ hasanatan wa fil-âkhirati hasanatan wa qinâ 'adhâban nâr.",
+          "translation": "O Allah, grant us good in this world and good in the Hereafter, and protect us from the punishment of the Fire.",
+          "source": "Al-Baqarah, v. 201"
+        },
+        "pendantTours": "One performs seven circuits around the Ka'bah while reciting whatever invocations or passages from the Quran one wishes, without raising one's voice.",
+        "tips": ["Direction: counterclockwise (Ka'bah to your left)", "Start: Black Stone", "7 complete circuits", "Jog the first 3 circuits (men)"],
+        "icon": "tawaf"
+      },
+      {
+        "number": 2,
+        "title": "Prayer at the Maqam Ibrahim",
+        "subtitle": "2 rak'ah after the Tawaf",
+        "description": "One proceeds to the Station of Abraham (Maqam Ibrahim) after covering both shoulders.",
+        "verset": {
+          "arabic": "وَاتَّخِذُوا مِنْ مَقَامِ إِبْرَاهِيمَ مُصَلًّى",
+          "phonetic": "Wat-takhidhû mim maqâmi Ibrâhîma musallâ.",
+          "translation": "Take the Station of Abraham as a place of prayer.",
+          "source": "Al-Baqarah, v. 125"
+        },
+        "details": "Then, one performs two units of prayer, if possible, behind the Station of Abraham. Otherwise, one may pray in any other spot within the Sacred Mosque.",
+        "tips": ["2 rak'ah behind the Maqam if possible", "1st rak'ah: Al-Fatihah + Al-Kafirun", "2nd rak'ah: Al-Fatihah + Al-Ikhlas", "Cover both shoulders"],
+        "icon": "prayer"
+      },
+      {
+        "number": 3,
+        "title": "Zamzam water",
+        "subtitle": "Drinking the blessed water",
+        "description": "Once the prayer is complete, the pilgrim drinks Zamzam water and may pour some over their head.",
+        "hadiths": [
+          "\"Zamzam water is a means of fulfillment for the intention with which one drinks it.\"",
+          "\"It is blessed, it nourishes like food and heals the sick.\""
+        ],
+        "suite": "Then, they return to the Black Stone, say \"Allahu Akbar\" and touch it or extend their hand toward it.",
+        "tips": ["Free in the mosque", "Supplicate to Allah while drinking", "You may pour some over your head"],
+        "icon": "water"
+      },
+      {
+        "number": 4,
+        "title": "The Sa'i",
+        "subtitle": "7 laps between Safa and Marwah",
+        "description": "The pilgrim proceeds to the place where the back-and-forth walks are performed (Mas'a).",
+        "montSafa": {
+          "instruction": "Upon ascending Mount Safa, the first time only, one says:",
+          "arabic": "إِنَّ الصَّفَا وَالمَرْوَةَ مِنْ شَعَائِرِ اللهِ",
+          "phonetic": "Inn as-Safâ wal-Marwata min sha'â'iri Llâhi...",
+          "translation": "Indeed, Safa and Marwah are among the sacred rites of Allah...",
+          "source": "Al-Baqarah, v. 158",
+          "ajout": "One adds: \"Abda'u bima bada'a Allahu bihi\" — I begin with what Allah mentioned first."
+        },
+        "surSafa": {
+          "instruction": "On Mount Safa, one faces the Ka'bah and says:",
+          "arabic": "اللهُ أَكْبَرُ اللهُ أَكْبَرُ اللهُ أَكْبَرُ لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الحَمْدُ يُحْيِي وَيُمِيتُ وَ هُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+          "phonetic": "Allâhu Akbaru, Allâhu Akbaru, Allâhu Akbar. Lâ Ilâha illa Llâhu Wahdahu lâ sharîka Lahu, Lah ul-mulku wa Lah ul-hamdu, yuhyî wa yumîtu, wa Huwa 'alâ kulli shay'in qadîr...",
+          "translation": "Allah is the Greatest (x3). There is no deity but Allah, Alone, without partner. To Him belongs sovereignty and praise. He gives life and causes death, and He is Able to do all things...",
+          "note": "One makes supplications with raised hands, facing the Ka'bah. This is repeated three times."
+        },
+        "versMarwah": "One descends from Safa toward Marwah. Upon reaching the green marker, men run between it and the next marker. Women continue walking normally.",
+        "pendantTrajet": {
+          "arabic": "رَبِّ اغْفِرْ وَ ارْحَمْ، إِنَّكَ أَنْتَ الأَعَزُّ الأَكْرَمُ",
+          "phonetic": "Rabbi ghfir wa rham, Innaka Anta al-A'azz ul-Akram.",
+          "translation": "Lord, forgive us and have mercy, for You are the Most Mighty, the Most Noble."
+        },
+        "comptage": "Safa → Marwah = 1 lap. Marwah → Safa = 1 lap. On the 7th lap, one ends up at Marwah.",
+        "tips": ["Start from Safa", "Men run between the green markers", "Women walk normally", "Arrive at Marwah on the 7th lap", "Supplications at each mount"],
+        "icon": "sai"
+      },
+      {
+        "number": 5,
+        "title": "Shaving / trimming",
+        "subtitle": "Halq or Taqsir",
+        "description": "After the back-and-forth walks between Safa and Marwah (Sa'y), men must shave their head or cut their hair.",
+        "homme": "Men shave the head (Halq, recommended) or trim the hair (Taqsir). The shaving or trimming must be done over the entire surface of the head. It is not permitted to shave one part and leave another.",
+        "femme": "Women gather their hair and cut the tips by the length of a fingertip.",
+        "fin": "This is how pilgrims exit the state of sacralisation, and they are once again permitted to do everything they were allowed to do before entering the state of sacralisation.",
+        "tips": ["Halq (complete shave) = preferable for men", "Taqsir = cutting a few centimeters over the entire head", "Women: a small lock (length of a fingertip)", "Do not shave one part and leave another"],
+        "icon": "razor"
+      }
+    ],
+    "completionNote": "The 'Umra is now complete! You may remove the Ihram and resume your normal life."
+  },
+  "medine": {
+    "sectionTitle": "The stay in Madinah",
+    "sectionSubtitle": "The city of the Prophet ﷺ",
+    "remarques": {
+      "title": "Important remarks",
+      "points": [
+        "One may visit the Prophet's Mosque ﷺ before or after the pilgrimage, and even throughout the year. This visit is not part of the rites of Hajj or 'Umra and is not a condition for their validity.",
+        "One should formulate the intention of visiting the Prophet's Mosque ﷺ and not of visiting his tomb, as it is not permitted to travel for a purpose of worship except to the three sacred mosques.",
+        "Contrary to what some people propagate, there is no obligation to perform forty prayers in Madinah.",
+        "Only visits to the places indicated here are authorized. Beyond these, there is no evidence inviting the performance of other acts. One must therefore refrain from them."
+      ],
+      "hadithTroisMosquees": {
+        "text": "\"One does not prepare one's mount [to travel for a purpose of worship] except to go to three mosques: the Mosque of Mecca, my Mosque [that of the Prophet], and the Mosque of Al-Aqsa.\"",
+        "source": "Rapporté par Al-Bukhârî et Muslim"
+      },
+      "hadithRecompense": {
+        "text": "\"Prayer in my Mosque is worth more than 1,000 prayers performed elsewhere, except in the Sacred Mosque [of Mecca, where they are worth 100,000 prayers].\"",
+        "source": "Rapporté par Al-Bukhârî et Muslim"
+      }
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Entering the mosque",
+        "text": "Upon arriving at the Prophet's Mosque ﷺ, one enters with the right foot first and says:",
+        "duas": [
+          {
+            "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَسَلِّمْ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+            "phonetic": "Allâhumma salli 'alâ Muhammadin wa sallim, Allâhumma ftah lî abwâba rahmatik.",
+            "translation": "O Allah, send blessings and peace upon Muhammad. O Allah, open for me the gates of Your mercy."
+          },
+          {
+            "arabic": "أَعُوذُ بِاللهِ العَظِيمِ وَبِوَجْهِهِ الكَرِيمِ وَسُلْطَانِهِ القَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+            "phonetic": "A'ûdhu bi Llâh il-'Azhîmi, wa bi Wajhih il-karîmi, wa Sultânih il-qadîmi, min ash-shaytân ir-rajîm.",
+            "translation": "I seek refuge in Allah the Almighty, in His noble Countenance and His eternal Sovereignty, from Satan the accursed."
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Inside the mosque",
+        "text": "One performs all obligatory prayers and as many voluntary prayers as possible in the Sacred Mosque.",
+        "details": "This is also the opportunity to sit, listen, benefit from the scholars' lessons, and possibly ask questions. Do not miss this — whether in Madinah or Mecca, even if only to receive the blessings of those gatherings where Allah is mentioned."
+      },
+      {
+        "number": 3,
+        "title": "Praying in the Rawdah",
+        "text": "One should perform as many voluntary prayers as possible in the Rawdah. It is located between the pulpit of the Prophet ﷺ and the chamber in which he was buried.",
+        "hadith": "According to a hadith reported by Al-Bukhari and Muslim, this place is one of the gardens of Paradise.",
+        "conseil": "However, one should avoid pushing people around and walking in front of Muslims who are praying in order to reach it."
+      },
+      {
+        "number": 4,
+        "title": "Greeting the Prophet ﷺ and his Companions",
+        "text": "After praying, one may go before the tomb of the Prophet ﷺ. One stands facing the tomb, with composure.",
+        "salutations": [
+          {
+            "qui": "The Prophet ﷺ",
+            "arabic": "السَّلَامُ عَلَيْكَ يَا رَسُولَ اللهِ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+            "phonetic": "Assalâmu 'alayka yâ Rasûla Llâhi wa rahmatu Llâhi wa barakâtuhu.",
+            "translation": "Peace be upon you, O Messenger of Allah, and the mercy of Allah and His blessings."
+          },
+          {
+            "qui": "Abu Bakr As-Siddiq",
+            "instruction": "One moves slightly to the right and greets Abu Bakr.",
+            "arabic": "السَّلَامُ عَلَيْكَ يَا أَبَا بَكْرٍ الصِّدِّيقَ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+            "phonetic": "Assalâmu 'alayka yâ Abâ Bakrini s-Siddîqa wa rahmatu Llâhi wa barakâtuhu.",
+            "translation": "Peace be upon you, O Abu Bakr the Truthful, and the mercy of Allah and His blessings."
+          },
+          {
+            "qui": "'Umar ibn Al-Khattab",
+            "instruction": "Then one moves further to the right and greets 'Umar ibn Al-Khattab.",
+            "arabic": "السَّلَامُ عَلَيْكَ يَا عُمَرُ ابْنُ الْخَطَّابِ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+            "phonetic": "Assalâmu 'alayka yâ 'Umaru ibnu l-Khattâbi wa rahmatu Llâhi wa barakâtuhu.",
+            "translation": "Peace be upon you, O 'Umar ibn Al-Khattab, and the mercy of Allah and His blessings."
+          }
+        ],
+        "attention": [
+          "It is strictly forbidden to address requests to the Prophet ﷺ or his Companions, or to any occupant of a tomb! Supplication is an act of worship and the Only One who deserves worship is Allah.",
+          "When making supplications, one faces the direction of the Qiblah, not the tomb of the Prophet ﷺ.",
+          "It is not permitted to rub against the walls of the Prophet's chamber ﷺ or to circumambulate it."
+        ],
+        "remarqueFemme": "Some scholars hold the view that women are not permitted to visit the tomb of the Prophet ﷺ. In that case, they may supplicate to Allah in favor of the Prophet ﷺ from wherever they are. The area called \"Rawdah\" is nonetheless open to women at certain hours to allow them to pray there."
+      },
+      {
+        "number": 5,
+        "title": "Visiting the Al-Baqi' cemetery",
+        "text": "It is recommended for men to visit the Al-Baqi' al-Gharqad cemetery. The Prophet ﷺ recommended visiting the cemetery to remember death and the Hereafter.",
+        "enterres": [
+          "The daughters and sons of the Prophet ﷺ",
+          "The wives of the Prophet ﷺ",
+          "'Uthman ibn 'Affan",
+          "'Abdullah ibn Mas'ud",
+          "'Abdur-Rahman ibn 'Awf",
+          "Halimah As-Sa'diyyah",
+          "Imam Malik"
+        ],
+        "dua": {
+          "arabic": "السَّلَامُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللهُ بِكُمْ لَاحِقُونَ. يَرْحَمُ اللهُ الْمُسْتَقْدِمِينَ مِنَّا وَالْمُسْتَأْخِرِينَ. أَسْأَلُ اللهَ لَنَا وَلَكُمْ الْعَافِيَةَ",
+          "phonetic": "Assalâmu 'alaykum ahla d-diyâri min al-mu'minîna wal-muslimîna wa innâ inchâ' Allâhu bikum lâhiqûn. Yarhamu Llâhu l-mustaqdimîna minnâ wal-musta'khirîna. As'alu Llâha lanâ wa lakum al-'âfiyah.",
+          "translation": "Peace be upon you, inhabitants of these dwellings, believers and Muslims. We shall, if Allah wills, certainly join you. May Allah grant His grace to those who have passed before us and to those who will follow. I ask Allah for well-being for us and for you.",
+          "source": "Rapporté par Muslim et Ibn Mâjah"
+        }
+      },
+      {
+        "number": 6,
+        "title": "Going to Uhud",
+        "text": "It is recommended to go to Uhud, especially to commemorate the great deeds of the Prophet ﷺ and his Companions during the battle that took place there and the trials they endured.",
+        "details": "One should not miss greeting those Companions who are buried there, such as Hamzah ibn 'Abd Al-Muttalib, the paternal uncle of the Prophet ﷺ."
+      },
+      {
+        "number": 7,
+        "title": "Visiting the Quba' Mosque",
+        "text": "It is also recommended to go to the Quba' Mosque to pray there.",
+        "hadith": {
+          "text": "\"Whoever purifies himself at home, then goes to the Quba' Mosque and prays two units of prayer there, receives the reward of an 'Umra.\"",
+          "source": "Rapporté par Ahmad, An-Nassâ'î et d'autres"
+        },
+        "conseil": "One should therefore be careful to perform ablution before going there."
+      }
+    ]
+  },
+  "invocations": {
+    "sectionTitle": "Essential invocations",
+    "sectionSubtitle": "The pilgrim's duas",
+    "list": [
+      {
+        "moment": "Upon entering the mosque",
+        "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَسَلِّمْ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+        "phonetic": "Allâhumma salli 'alâ Muhammadin wa sallim, Allâhumma ftah lî abwâba rahmatik.",
+        "translation": "O Allah, send blessings and peace upon Muhammad. O Allah, open for me the gates of Your mercy."
+      },
+      {
+        "moment": "Upon seeing the Ka'bah",
+        "arabic": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ فَحَيِّنَا رَبَّنَا بِالسَّلَامِ",
+        "phonetic": "Allâhumma Antas-salâmu, wa Minkas-salâmu fa hayyinâ Rabbanâ bis-salâm.",
+        "translation": "O Allah, You are Peace, from You comes Peace, keep us, O Lord, in Peace."
+      },
+      {
+        "moment": "At the Black Stone",
+        "arabic": "بِسْمِ اللهِ. اللهُ أَكْبَرُ",
+        "phonetic": "Bismi Llâhi. Allâhu Akbar!",
+        "translation": "In the name of Allah. Allah is the Greatest!"
+      },
+      {
+        "moment": "Between the Yemeni Corner and the Black Stone",
+        "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+        "phonetic": "Rabbanâ âtinâ fid-dunyâ hasanatan wa fil-âkhirati hasanatan wa qinâ 'adhâban nâr.",
+        "translation": "O Allah, grant us good in this world and good in the Hereafter, and protect us from the punishment of the Fire.",
+        "source": "Al-Baqarah, v. 201"
+      },
+      {
+        "moment": "The Talbiyah",
+        "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+        "phonetic": "Labbayk Allahumma labbayk, labbayka lâ sharîka laka labbayk, inna-l-hamda wan-ni'mata Laka wal-mulk, lâ sharîka lak.",
+        "translation": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. All praise, grace, and sovereignty belong to You. You have no partner."
+      },
+      {
+        "moment": "Upon ascending Safa (1st time)",
+        "arabic": "إِنَّ الصَّفَا وَالمَرْوَةَ مِنْ شَعَائِرِ اللهِ",
+        "phonetic": "Inn as-Safâ wal-Marwata min sha'â'iri Llâhi...",
+        "translation": "Indeed, Safa and Marwah are among the sacred rites of Allah...",
+        "source": "Al-Baqarah, v. 158"
+      },
+      {
+        "moment": "During the Sa'i",
+        "arabic": "رَبِّ اغْفِرْ وَ ارْحَمْ، إِنَّكَ أَنْتَ الأَعَزُّ الأَكْرَمُ",
+        "phonetic": "Rabbi ghfir wa rham, Innaka Anta al-A'azz ul-Akram.",
+        "translation": "Lord, forgive us and have mercy, for You are the Most Mighty, the Most Noble."
+      },
+      {
+        "moment": "Conditional formula (optional)",
+        "arabic": "اللَّهُمَّ مَحِلِّي حَيْثُ حَبَسْتَنِي",
+        "phonetic": "Allâhumma mahillî haythu habastanî.",
+        "translation": "O Allah, I will exit my state of sacralisation wherever You have stopped me.",
+        "source": "Rapporté par Al-Bukhârî et Muslim"
+      },
+      {
+        "moment": "Protection upon entering the mosque",
+        "arabic": "أَعُوذُ بِاللهِ العَظِيمِ وَبِوَجْهِهِ الكَرِيمِ وَسُلْطَانِهِ القَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+        "phonetic": "A'ûdhu bi Llâh il-'Azhîmi, wa bi Wajhih il-karîmi, wa Sultânih il-qadîmi, min ash-shaytân ir-rajîm.",
+        "translation": "I seek refuge in Allah the Almighty, in His noble Countenance and His eternal Sovereignty, from Satan the accursed."
+      },
+      {
+        "moment": "Greeting the Prophet ﷺ in Madinah",
+        "arabic": "السَّلَامُ عَلَيْكَ يَا رَسُولَ اللهِ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+        "phonetic": "Assalâmu 'alayka yâ Rasûla Llâhi wa rahmatu Llâhi wa barakâtuhu.",
+        "translation": "Peace be upon you, O Messenger of Allah, and the mercy of Allah and His blessings."
+      },
+      {
+        "moment": "At the Al-Baqi' cemetery",
+        "arabic": "السَّلَامُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللهُ بِكُمْ لَاحِقُونَ. يَرْحَمُ اللهُ الْمُسْتَقْدِمِينَ مِنَّا وَالْمُسْتَأْخِرِينَ. أَسْأَلُ اللهَ لَنَا وَلَكُمْ الْعَافِيَةَ",
+        "phonetic": "Assalâmu 'alaykum ahla d-diyâri min al-mu'minîna wal-muslimîna wa innâ inchâ' Allâhu bikum lâhiqûn. Yarhamu Llâhu l-mustaqdimîna minnâ wal-musta'khirîna. As'alu Llâha lanâ wa lakum al-'âfiyah.",
+        "translation": "Peace be upon you, inhabitants of these dwellings, believers and Muslims. We shall, if Allah wills, certainly join you. May Allah grant His grace to those who have passed before us and to those who will follow. I ask Allah for well-being for us and for you.",
+        "source": "Rapporté par Muslim et Ibn Mâjah"
+      }
+    ]
+  },
+  "recap": {
+    "sectionTitle": "Summary",
+    "sectionSubtitle": "The entire 'Umra at a glance",
+    "steps": [
+      "Ihram + Talbiyah",
+      "Tawaf (7 circuits)",
+      "Prayer at the Maqam",
+      "Zamzam water",
+      "Sa'i (7 laps)",
+      "Shaving / Taqsir"
+    ]
+  }
+}

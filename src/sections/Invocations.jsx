@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import { useInView } from '../hooks/useInView';
-import content from '../content/fr.json';
+import { LanguageContext } from '../context/LanguageContext';
 import './Invocations.css';
 
 function InvocationCard({ dua, index, forceOpen }) {
@@ -49,6 +49,7 @@ function InvocationCard({ dua, index, forceOpen }) {
 }
 
 export default function Invocations() {
+  const { content } = useContext(LanguageContext);
   const { invocations } = content;
   const [ref, inView] = useInView();
   const [allOpen, setAllOpen] = useState(false);

@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import { useInView } from '../hooks/useInView';
-import content from '../content/fr.json';
+import { LanguageContext } from '../context/LanguageContext';
 import './Medine.css';
 
 function DuaCard({ arabic, phonetic, translation, source, className = '' }) {
@@ -31,6 +31,7 @@ function DuaCard({ arabic, phonetic, translation, source, className = '' }) {
 }
 
 function RemarquesSection() {
+  const { content } = useContext(LanguageContext);
   const { remarques } = content.medine;
   const [ref, inView] = useInView();
 
@@ -231,6 +232,7 @@ function SimpleStep({ step }) {
 const STEP_RENDERERS = [EntreeMosquee, DansMosquee, RawdhahStep, SalutationsStep, CimetiereStep, SimpleStep, SimpleStep];
 
 export default function Medine() {
+  const { content } = useContext(LanguageContext);
   const { medine } = content;
 
   return (

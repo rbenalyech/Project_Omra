@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import { useInView } from '../hooks/useInView';
-import content from '../content/fr.json';
+import { LanguageContext } from '../context/LanguageContext';
 import './Sacralisation.css';
 
 function DuaCard({ arabic, phonetic, translation, source, className = '' }) {
@@ -31,6 +31,7 @@ function DuaCard({ arabic, phonetic, translation, source, className = '' }) {
 }
 
 function MiqatMap() {
+  const { content } = useContext(LanguageContext);
   const { miqat } = content.sacralisation;
   const [ref, inView] = useInView();
 
@@ -67,6 +68,7 @@ function MiqatMap() {
 }
 
 function PreparationSection() {
+  const { content } = useContext(LanguageContext);
   const { preparation } = content.sacralisation;
   const [ref, inView] = useInView();
   const [activeTab, setActiveTab] = useState('homme');
@@ -130,6 +132,7 @@ function PreparationSection() {
 }
 
 function EntreeSection() {
+  const { content } = useContext(LanguageContext);
   const { entree, condition } = content.sacralisation;
   const [ref, inView] = useInView();
 
@@ -163,6 +166,7 @@ function EntreeSection() {
 const basePath = import.meta.env.BASE_URL;
 
 function IhramSection() {
+  const { content } = useContext(LanguageContext);
   const { ihram } = content.sacralisation;
   const [ref, inView] = useInView();
   const [showAfter, setShowAfter] = useState(false);
@@ -269,6 +273,7 @@ function IhramSection() {
 }
 
 function TalbiyahSection() {
+  const { content } = useContext(LanguageContext);
   const { talbiyah } = content.sacralisation;
   const [ref, inView] = useInView();
 
@@ -289,6 +294,7 @@ function TalbiyahSection() {
 }
 
 function TableauSection() {
+  const { content } = useContext(LanguageContext);
   const { tableau } = content.sacralisation;
   const [ref, inView] = useInView();
 
@@ -320,6 +326,7 @@ function TableauSection() {
 }
 
 export default function Sacralisation() {
+  const { content } = useContext(LanguageContext);
   return (
     <section id="sacralisation" className="sacralisation section">
       <div className="section-inner">

@@ -1,8 +1,8 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useContext } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useInView } from '../hooks/useInView';
-import content from '../content/fr.json';
+import { LanguageContext } from '../context/LanguageContext';
 import './Preparatifs.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -19,6 +19,7 @@ const CHECKLIST_ICONS = {
 };
 
 function PatienceRules() {
+  const { content } = useContext(LanguageContext);
   const { patience } = content.preparatifs;
   const [ref, inView] = useInView();
 
@@ -43,6 +44,7 @@ function PatienceRules() {
 }
 
 function Checklist() {
+  const { content } = useContext(LanguageContext);
   const { checklist } = content.preparatifs;
   const [ref, inView] = useInView();
 
@@ -63,6 +65,7 @@ function Checklist() {
 }
 
 function PhysiqueCards() {
+  const { content } = useContext(LanguageContext);
   const { physique } = content.preparatifs;
   const [ref, inView] = useInView();
 
@@ -86,6 +89,7 @@ function PhysiqueCards() {
 function SuitcaseWidget() {
   const containerRef = useRef(null);
   const itemsRef = useRef([]);
+  const { content } = useContext(LanguageContext);
   const { valise } = content.preparatifs;
 
   useEffect(() => {
@@ -152,6 +156,7 @@ function SuitcaseWidget() {
 }
 
 function BudgetSection() {
+  const { content } = useContext(LanguageContext);
   const { budget } = content.preparatifs;
   const [ref, inView] = useInView();
 
@@ -191,6 +196,7 @@ function BudgetSection() {
 }
 
 function ApprendreSection() {
+  const { content } = useContext(LanguageContext);
   const { apprendre } = content.preparatifs;
   const [ref, inView] = useInView();
 
@@ -223,6 +229,7 @@ function ApprendreSection() {
 }
 
 export default function Preparatifs() {
+  const { content } = useContext(LanguageContext);
   return (
     <section id="preparatifs" className="preparatifs section">
       <div className="section-inner">

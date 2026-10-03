@@ -1,5 +1,6 @@
+import { useContext } from 'react';
 import { useInView } from '../hooks/useInView';
-import content from '../content/fr.json';
+import { LanguageContext } from '../context/LanguageContext';
 import './Aeroport.css';
 
 const STEP_ICONS = {
@@ -26,6 +27,7 @@ const STEP_ICONS = {
 };
 
 export default function Aeroport() {
+  const { content } = useContext(LanguageContext);
   const { aeroport } = content;
   const [ref, inView] = useInView({ threshold: 0.1 });
 

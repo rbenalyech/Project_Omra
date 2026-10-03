@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState, useCallback } from 'react';
-import content from '../content/fr.json';
+import { useEffect, useRef, useState, useCallback, useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 import './FlightMap.css';
 
 const basePath = import.meta.env.BASE_URL;
@@ -13,6 +13,7 @@ const CITIES = [
 const FLIGHT_PATH_D = 'M367,131 Q450,190 530,284 Q640,380 743,489';
 
 export default function FlightMap() {
+  const { content } = useContext(LanguageContext);
   const sectionRef = useRef(null);
   const planeRef = useRef(null);
   const pathRef = useRef(null);

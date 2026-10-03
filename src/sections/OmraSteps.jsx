@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useContext } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useInView } from '../hooks/useInView';
-import content from '../content/fr.json';
+import { LanguageContext } from '../context/LanguageContext';
 import './OmraSteps.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -126,6 +126,7 @@ function SaiAnimation() {
 }
 
 function ArriveeMekkah() {
+  const { content } = useContext(LanguageContext);
   const { arriveeMekkah } = content.omra;
   const [ref, inView] = useInView();
 
@@ -409,6 +410,7 @@ function RasageStep({ step }) {
 const STEP_RENDERERS = [TawafStep, MaqamStep, ZamzamStep, SaiStep, RasageStep];
 
 export default function OmraSteps() {
+  const { content } = useContext(LanguageContext);
   return (
     <section id="omra" className="omra-steps section">
       <div className="section-inner">
