@@ -17,6 +17,7 @@ export default function FlightMap() {
   const planeRef = useRef(null);
   const pathRef = useRef(null);
   const trailRef = useRef(null);
+  const athRatioRef = useRef(0.45);
   const [activeCity, setActiveCity] = useState(-1);
   const [showMiqat, setShowMiqat] = useState(false);
 
@@ -37,13 +38,24 @@ export default function FlightMap() {
     const p = Math.max(0, Math.min(1, rawProgress));
 
     const pathLength = path.getTotalLength();
-    const pointOnPath = p * pathLength;
+    const athR = athRatioRef.current;
+
+    let pathP;
+    if (p <= 0.35) {
+      pathP = (p / 0.35) * athR;
+    } else if (p <= 0.65) {
+      pathP = athR;
+    } else {
+      pathP = athR + ((p - 0.65) / 0.35) * (1 - athR);
+    }
+
+    const pointOnPath = pathP * pathLength;
     const point = path.getPointAtLength(pointOnPath);
     const pointAhead = path.getPointAtLength(Math.min(pointOnPath + 2, pathLength));
     const angle = Math.atan2(pointAhead.y - point.y, pointAhead.x - point.x) * (180 / Math.PI);
 
     plane.setAttribute('transform', `translate(${point.x}, ${point.y}) rotate(${angle})`);
-    trail.style.strokeDashoffset = String(pathLength * (1 - p));
+    trail.style.strokeDashoffset = String(pathLength * (1 - pathP));
 
     if (p < 0.03) setActiveCity(-1);
     else if (p < 0.35) setActiveCity(0);
@@ -59,6 +71,15 @@ export default function FlightMap() {
       const len = path.getTotalLength();
       trail.style.strokeDasharray = String(len);
       trail.style.strokeDashoffset = String(len);
+
+      let athLen = 0;
+      let minDist = Infinity;
+      for (let l = 0; l <= len; l += 1) {
+        const pt = path.getPointAtLength(l);
+        const d = Math.hypot(pt.x - CITIES[1].x, pt.y - CITIES[1].y);
+        if (d < minDist) { minDist = d; athLen = l; }
+      }
+      athRatioRef.current = athLen / len;
     }
 
     window.addEventListener('scroll', handleScroll, { passive: true });
